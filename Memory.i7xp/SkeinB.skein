@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-7">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-26"/>
+  <item nodeId="node-7">
+    <command xml:space="preserve">Text memory</command>
+    <result xml:space="preserve">Text memory&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201022 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;At the Security Door&#x000A;You stand before a massive security door with a keypad next to it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Text memory&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201022 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;At the Security Door&#x000A;You stand before a massive security door with a keypad next to it.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">North Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">North Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Middle Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Middle Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">South Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">South Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Clue Room&#x000A;The only thing of interest here is a whiteboard, and an exit north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Clue Room&#x000A;The only thing of interest here is a whiteboard, and an exit north.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">x whiteboard</command>
+    <result xml:space="preserve">A giant number is scrawled on it in multicolored ink: 1422.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A giant number is scrawled on it in multicolored ink: 1422.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">remember the code is 1422</command>
+    <result xml:space="preserve">You will remember the code is 1422.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You will remember the code is 1422.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">South Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">South Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Middle Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Middle Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">North Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">North Hall&#x000A;A hall leading north and south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">At the Security Door&#x000A;You stand before a massive security door with a keypad next to it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">At the Security Door&#x000A;You stand before a massive security door with a keypad next to it.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">You recall: &#x000A; - the code is 1422&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You recall: &#x000A; - the code is 1422&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">push one</command>
+    <result xml:space="preserve">(on the security keypad)&#x000A;You push 1 on the security keypad and it beeps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(on the security keypad)&#x000A;You push 1 on the security keypad and it beeps.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">push four</command>
+    <result xml:space="preserve">(on the security keypad)&#x000A;You push 4 on the security keypad and it beeps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(on the security keypad)&#x000A;You push 4 on the security keypad and it beeps.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">push two</command>
+    <result xml:space="preserve">(on the security keypad)&#x000A;You push 2 on the security keypad and it beeps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(on the security keypad)&#x000A;You push 2 on the security keypad and it beeps.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">push two</command>
+    <result xml:space="preserve">(on the security keypad)&#x000A;You push 2 on the security keypad and it beeps.&#x000A;A jingle comprised of several beeps suggests the code worked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(on the security keypad)&#x000A;You push 2 on the security keypad and it beeps.&#x000A;A jingle comprised of several beeps suggests the code worked.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">forget</command>
+    <result xml:space="preserve">You have forgotten all your textual memories.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You have forgotten all your textual memories.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">You don't remember anything in particular.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You don't remember anything in particular.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the security door)&#x000A;&#x000A;Vault&#x000A;A small vault with solid steel walls, floor, and ceiling.&#x000A;&#x000A;You can see a treasure here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first opening the security door)&#x000A;&#x000A;Vault&#x000A;A small vault with solid steel walls, floor, and ceiling.&#x000A;&#x000A;You can see a treasure here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">get treasure</command>
+    <result xml:space="preserve">*** You got the treasure! You'll be rich. ***&#x000A;&#x000A;&#x000A;In that game you scored 0 out of a possible 0, in 19 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve">*** You got the treasure! You'll be rich. ***&#x000A;&#x000A;&#x000A;In that game you scored 0 out of a possible 0, in 19 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-33">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-78"/>
+  <item nodeId="node-33">
+    <command xml:space="preserve">Remembering objects</command>
+    <result xml:space="preserve">Remembering objects&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201022 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bedroom (on the small bed)&#x000A;Nothing but a bed and an exit south.&#x000A;&#x000A;On the small bed you can see a pillow, a sheet, and a book.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Remembering objects&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201022 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bedroom (on the small bed)&#x000A;Nothing but a bed and an exit south.&#x000A;&#x000A;On the small bed you can see a pillow, a sheet, and a book.&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">remember pillow</command>
+    <result xml:space="preserve">You will remember the pillow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You will remember the pillow.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">(1) the pillow - the Bedroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(1) the pillow - the Bedroom&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">get pillow</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">remember pillow</command>
+    <result xml:space="preserve">You're already holding the pillow! No need to remember it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You're already holding the pillow! No need to remember it.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">get sheet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">get book</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">You don't remember anything in particular.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You don't remember anything in particular.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first getting off the small bed)&#x000A;&#x000A;Hall&#x000A;Nothing interesting here - just leads to the bathroom west and the bedroom north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first getting off the small bed)&#x000A;&#x000A;Hall&#x000A;Nothing interesting here - just leads to the bathroom west and the bedroom north.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">remember door</command>
+    <result xml:space="preserve">You will remember the bathroom door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You will remember the bathroom door.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">(1) the bathroom door - the Hall (locked) (closed)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(1) the bathroom door - the Hall (locked) (closed)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the bathroom key)&#x000A;You unlock the bathroom door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(with the bathroom key)&#x000A;You unlock the bathroom door.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the bathroom door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You open the bathroom door.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">(1) the bathroom door - the Hall (locked) (closed)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(1) the bathroom door - the Hall (locked) (closed)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">remember door</command>
+    <result xml:space="preserve">You examine the bathroom door and see what's changed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You examine the bathroom door and see what's changed.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">(1) the bathroom door - the Hall (unlocked) (open)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(1) the bathroom door - the Hall (unlocked) (open)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Bathroom&#x000A;The countertop here is super clean. East lies the hallway.&#x000A;&#x000A;On the countertop are a toothbrush and a comb.&#x000A;&#x000A;You can also see the bathtub (in which are water and the drain) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Bathroom&#x000A;The countertop here is super clean. East lies the hallway.&#x000A;&#x000A;On the countertop are a toothbrush and a comb.&#x000A;&#x000A;You can also see the bathtub (in which are water and the drain) here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">remember comb</command>
+    <result xml:space="preserve">You will remember the comb.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You will remember the comb.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">put sheet in bathtub</command>
+    <result xml:space="preserve">You put the sheet into the bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You put the sheet into the bathtub.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">remember bathtub</command>
+    <result xml:space="preserve">You will remember the bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You will remember the bathtub.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">drop pillow</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">put book on counter</command>
+    <result xml:space="preserve">You put the book on the countertop.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You put the book on the countertop.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Hall&#x000A;Nothing interesting here - just leads to the bathroom west and the bedroom north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Hall&#x000A;Nothing interesting here - just leads to the bathroom west and the bedroom north.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bedroom&#x000A;Nothing but a bed and an exit south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Bedroom&#x000A;Nothing but a bed and an exit south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">(1) the pillow - the Bathroom&#x000A;(2) the bathroom door - the Hall (unlocked) (open)&#x000A;(3) the countertop - the Bathroom (supporting the book, the toothbrush, and the comb)&#x000A;(4) the bathtub - the Bathroom (containing the sheet, water, and the drain)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(1) the pillow - the Bathroom&#x000A;(2) the bathroom door - the Hall (unlocked) (open)&#x000A;(3) the countertop - the Bathroom (supporting the book, the toothbrush, and the comb)&#x000A;(4) the bathtub - the Bathroom (containing the sheet, water, and the drain)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">forget 10</command>
+    <result xml:space="preserve">That's not a thing you can forget.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">That's not a thing you can forget.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">forget 4</command>
+    <result xml:space="preserve">You forget the bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You forget the bathtub.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">(1) the pillow - the Bathroom&#x000A;(2) the sheet - the Bathroom&#x000A;(3) the bathroom door - the Hall (unlocked) (open)&#x000A;(4) the countertop - the Bathroom (supporting the book, the toothbrush, and the comb)&#x000A;(5) water - the Bathroom&#x000A;(6) the drain - the Bathroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(1) the pillow - the Bathroom&#x000A;(2) the sheet - the Bathroom&#x000A;(3) the bathroom door - the Hall (unlocked) (open)&#x000A;(4) the countertop - the Bathroom (supporting the book, the toothbrush, and the comb)&#x000A;(5) water - the Bathroom&#x000A;(6) the drain - the Bathroom&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">forget 1</command>
+    <result xml:space="preserve">You forget the pillow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You forget the pillow.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">(1) the sheet - the Bathroom&#x000A;(2) the bathroom door - the Hall (unlocked) (open)&#x000A;(3) the countertop - the Bathroom (supporting the book, the toothbrush, and the comb)&#x000A;(4) water - the Bathroom&#x000A;(5) the drain - the Bathroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(1) the sheet - the Bathroom&#x000A;(2) the bathroom door - the Hall (unlocked) (open)&#x000A;(3) the countertop - the Bathroom (supporting the book, the toothbrush, and the comb)&#x000A;(4) water - the Bathroom&#x000A;(5) the drain - the Bathroom&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">lie on bed</command>
+    <result xml:space="preserve">You are now reclining on the small bed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are now reclining on the small bed.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">sleep</command>
+    <result xml:space="preserve">You fall asleep and forget the world.&#x000A;You wake feeling refreshed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You fall asleep and forget the world.&#x000A;You wake feeling refreshed.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">You don't remember anything in particular.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You don't remember anything in particular.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

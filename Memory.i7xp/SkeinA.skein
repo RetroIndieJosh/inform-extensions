@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-2">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-6"/>
+  <item nodeId="node-2">
+    <command xml:space="preserve">Auto memory hints</command>
+    <result xml:space="preserve">Auto memory hints&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201022 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;A standard kitchen. The dining room is south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Auto memory hints&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201022 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;A standard kitchen. The dining room is south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">You know you had to do something, but you can't remember what it was.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You know you had to do something, but you can't remember what it was.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Dining Room&#x000A;The center of this intimate dining area is a large six-seat table.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Dining Room&#x000A;The center of this intimate dining area is a large six-seat table.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">The table is empty.&#x000A;&#x000A;The table triggers a memory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The table is empty.&#x000A;&#x000A;The table triggers a memory.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">recall</command>
+    <result xml:space="preserve">Ah! You've remembered. You need to set the table.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Ah! You've remembered. You need to set the table.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

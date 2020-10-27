@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>3739BA73-35A1-4841-AEEF-6FB5DD5E02C8</ifid>
+            <format>zcode</format>
+        </identification>
+        <bibliographic>
+            <title>Weapons</title>
+            <author>Anonymous</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2020</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2020-10-23</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2020-10-23</originated>
+        </colophon>
+        <zcode>
+            <serial>201023</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </zcode>
+    </story>
+</ifindex>

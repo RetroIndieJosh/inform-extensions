@@ -1,0 +1,6 @@
+*.swp
+*Build*
+*Index*
+*Reference*
+*/build/*
+*/Release/*
