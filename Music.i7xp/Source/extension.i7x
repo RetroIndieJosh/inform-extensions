@@ -31,7 +31,6 @@ Include (-
 -).
 
 Yourself can be music enabled or music disabled.
-When play begins: now yourself is music enabled.
 The active background music is a sound name that varies.
 
 Stopping music is an action out of world. Understand "stop music" and "end music" and "stop sound" and "end sound" and "music off" and "sound off" as stopping music.
@@ -54,7 +53,12 @@ Report starting music:
 	
 A room has a sound name called the background music.
 
-After looking in a room:
+When play begins: 
+	now yourself is music enabled;
+	now the active background music is the background music of the location of the player;
+	silently try starting music.
+
+After looking in a room when the background music of the location of the player is not the active background music:
 	silently try stopping music;
 	now the active background music is the background music of the location of the player;
 	if the player is music enabled, silently try starting music.
@@ -100,5 +104,7 @@ Example: * Music - Play background music
 	Sound of Test 2 is the file "test2.ogg".
 
 	The Listening Room is a room. "Music fills the air." The background music is sound of test 1.
+	
+	The Other Listening Room is east of the listening room. "Music continues to fill the air." The background music is sound of test 1.
 
-	The Outdoors is south of the listening room. "Something sounds different here." The background music is sound of test 2.
+	The Outdoors is south of the listening room and southwest of the other listening room. "Something sounds different here." The background music is sound of test 2.
