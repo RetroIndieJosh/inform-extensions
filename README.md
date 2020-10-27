@@ -5,7 +5,7 @@
 ## License
 
 If you use any of this code as a basis for your own work, you must include the
-following notice and a copy of the included LICENSE.md:
+following notice and a copy of the included `LICENSE.md`.
 
     <names of extensions>
     Copyright (C) 2020 Joshua McLean
@@ -35,24 +35,24 @@ following notice and a copy of the included LICENSE.md:
 - count saves
 - pull action
 
-Notes:
+To do:
 
 - bare bones, could have more
 - some parts could be their own extension but not enough content
 - should focus on things to be used across all extensions
-- NO DOCUMENTATION
-- MINIMAL TEST
+- DOCUMENTATION
+- MORE TESTS
 
 ## Books
 
 - reading implementation
 - book item?
 
-Notes:
+To do:
 
 - should handle pagination for extneded book reading
-- NO DOCUMENTATION
-- NO TESTS
+- DOCUMENTATION
+- TESTS
 
 ## Household Items
 
@@ -60,18 +60,18 @@ Notes:
 - descenders (stairs, ladders, etc.)
 - stairs
 
-Notes:
+To do:
 
 - descenders not updated or tested, may want to restructure
 - movable descenders? i.e. ladder, stepstool
-- NO DOCUMENTATION
-- NO TESTS
+- DOCUMENTATION
+- TESTS
 
 ## Keypad
 
 - numerical keypads
 
-Notes:
+To do:
 
 - text keypads for codes with letters
 - reset button on keypads
@@ -83,8 +83,8 @@ Notes:
 
 - containers which can hold liquid
 - EMPTY containers of their contents (liquid or otherwise)
-- NO DOCUMENTATION
-- NO TESTS
+- DOCUMENTATION
+- TESTS
 
 ## Memory
 
@@ -98,7 +98,7 @@ Notes:
 - FORGET any target thing (by number on recall list)
 - FORGET ALL to erase remembered text
 
-Notes:
+To do:
 
 - don't remember what's in a container or on a supporter if you haven't seen
   the things (or describe them when remembering?)
@@ -116,10 +116,10 @@ Notes:
 - instruments (nothing special/unique)
 - playing instruments
 
-Notes:
+To do:
 
-- NO DOCUMENTATION
-- NO TESTS
+- DOCUMENTATION
+- TESTS
 
 ## People
 
@@ -127,7 +127,7 @@ Notes:
 - introduce people
 - animal types
 
-Notes:
+To do:
 
 - rename to "People and Animals"
 - fully documented & tested as of 2020-10-22
@@ -141,7 +141,7 @@ Notes:
 - PAY FOR thing and PAY shopkeeper to pay for all unpaid things
 - theft resistance (can't leave with unpaid things)
 
-Notes:
+To do:
 
 - after first move attempt, allow second for stealing, reset after each payment
 - could go all-out with a "wanted level" and guards/police (like Skyrim)
@@ -155,11 +155,11 @@ Notes:
 - reasonable defaults
 - xyzzy command to see current time
 
-Notes:
+To do:
 
 - this would be an easy one to write tests for
-- NO DOCUMENTATION
-- NO TESTS
+- DOCUMENTATION
+- TESTS
 
 ## Violence
 
@@ -169,9 +169,9 @@ Notes:
 - KICK synonym for attack
 - allow attacking (but not really because it just says it's not nice)
 
-Notes:
+To do:
 
 - left/right hand handling
 - actual combat system
-- NO DOCUMENTATION
+- DOCUMENTATION
 - tests need revision
