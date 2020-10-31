@@ -1,5 +1,7 @@
 "Purchasing Equipment"
 
+Include Conversation Framework by Eric Eve.
+
 Include Shopping by Joshua McLean.
 
 When play begins:

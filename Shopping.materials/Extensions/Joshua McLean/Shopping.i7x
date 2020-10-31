@@ -4,8 +4,6 @@ Shopping by Joshua McLean begins here.
 
 Include General by Joshua McLean.
 
-Include Conversation Framework by Eric Eve. [18,872]
-
 Section 1 - Coin Purse
 
 A thing called the coin purse is carried by the player. It has a number called the coin count. The coin count of the coin purse is 0. After printing the name of the coin purse while taking inventory, say " (with [coin count of the coin purse] coins)". The description is "A small purse with [coin count of the coin purse] coins."
@@ -31,12 +29,14 @@ A shopkeeper is a kind of person. A shopkeeper has a number called the expected 
 
 A shop is a kind of room. A shop has a shopkeeper called the owner. No shop keeper is a shopkeeper. They are nowhere. They are without description.
 
+Section 4 - Shopkeeper Conversation (for use with Conversation Framework by Eric Eve)
+
 Check quizzing a shopkeeper (called the owner) about something (called the target) when the player is in a shop (called the current shop):
-	if the owner is not the owner of the current shop, say "[regarding the owner]'That's not [i]my[/i] [the target],' [they] [say]. 'You'll have to ask [the owner of the current shop].'" instead.
+	if the owner is not the owner of the current shop, say "'That's not [i]my[/i] [target],' [regarding the owner][they] [say]. 'You'll have to ask [the owner of the current shop].'" instead.
 Report quizzing a shopkeeper (called the owner) about something (called the target) when the player is in a shop (called the current shop):
 	say "[regarding the owner][They] considers [the target]. 'That'll be [coin value of the target] coins.'" instead.
 
-Section 4 - Listing
+Section 5 - Listing
 
 Shop listing is an action applying to nothing. Understand "list" as shop listing.
 Check shop listing:
@@ -46,7 +46,7 @@ Report shop listing:
 	repeat with item running through visible unpaid things:
 		say "  [item] for [coin value of item] coins[br]".
 
-Section 5 - Paying
+Section 6 - Paying
 
 To decide what number is the total amount owed:
 	let the total amount be 0;
@@ -84,7 +84,7 @@ Report paying for it:
 	
 The block buying rule is not listed in any rulebook. Instead of buying something, say "Try PAY FOR instead."
 
-Section 6 - Shoplifting
+Section 7 - Shoplifting
 
 Dropping unpaid is an action applying to nothing. Understand "drop unpaid" as dropping unpaid.
 Carry out dropping unpaid:
@@ -106,6 +106,8 @@ Example: * Purchasing Equipment - Getting what we need from the shopkeeper.
 
 	*: "Purchasing Equipment"
 	
+	Include Conversation Framework by Eric Eve.
+
 	Include Shopping by Joshua McLean.
 	
 	When play begins:

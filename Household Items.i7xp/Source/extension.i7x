@@ -1,8 +1,6 @@
 Household Items by Joshua McLean begins here.
 
-Include Postures by Emily Short.
-
-Chapter - Furniture
+Chapter - Furniture (for use with Postures by Emily Short)
 
 A chair is a kind of supporter. A chair is always enterable. Every chair allows seated and standing. The posture of a chair is usually seated.
 A bed is a kind of supporter. A bed is always enterable. Every bed allows seated and reclining. The posture of a bed is usually reclining.

@@ -28,7 +28,6 @@ Carry out drinking something:
 Report drinking something:
 	say "You drink [the liquid of the noun] from [the noun]. Tasty![90 sec]".
 	
-
 Chapter - Emptying
 
 Emptying is an action applying to one thing. Understand "empty [something]" and "pour [something] out" as emptying.
