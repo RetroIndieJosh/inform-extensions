@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "M:\gamedev\projects\inform\bardolfs-curse\extensions\People.i7xp\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "M:\gamedev\projects\inform\inform-extensions\People.i7xp\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "M:\gamedev\projects\inform\bardolfs-curse\extensions\People.i7xp"
-release to "M:\gamedev\projects\inform\bardolfs-curse\extensions\People.materials\Release"
+project folder "M:\gamedev\projects\inform\inform-extensions\People.i7xp"
+release to "M:\gamedev\projects\inform\inform-extensions\People.materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "Introductions.zblorb"
-storyfile "M:\gamedev\projects\inform\bardolfs-curse\extensions\People.i7xp\Build\output.z8" include
-ifiction "M:\gamedev\projects\inform\bardolfs-curse\extensions\People.i7xp\Metadata.iFiction" include
+storyfile leafname "Wander.zblorb"
+storyfile "M:\gamedev\projects\inform\inform-extensions\People.i7xp\Build\output.z8" include
+ifiction "M:\gamedev\projects\inform\inform-extensions\People.i7xp\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
@@ -21,7 +21,7 @@ picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 placeholder [IFID] = "8EE531AB-3088-47EE-BE33-F009472990E5"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2020"
-placeholder [TITLE] = "Introductions"
+placeholder [TITLE] = "Wander"
 placeholder [AUTHOR] = "Anonymous"
 placeholder [BLURB] = "A work of interactive fiction."
 

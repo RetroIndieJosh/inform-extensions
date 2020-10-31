@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-14">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-64"/>
+  <activeNode nodeId="node-66"/>
   <item nodeId="node-14">
     <command xml:space="preserve">Music</command>
     <result xml:space="preserve">Music&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201027 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Listening Room&#x000A;Music fills the air.&#x000A;&#x000A;&gt;</result>
@@ -400,6 +400,24 @@
   <item nodeId="node-64">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Listening Room&#x000A;Music fills the air.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

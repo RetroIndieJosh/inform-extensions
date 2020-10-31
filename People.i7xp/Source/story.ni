@@ -1,20 +1,26 @@
-"Introductions"
+"Wander"
 
 Include People by Joshua McLean.
 
-The check for missing descriptions when play begins rule is not listed in any rulebook.
+When play begins, seed the random-number generator with 17.
 
-The Party Room is a room. 
-A man called a balding man is here. Understand "John" as the balding man. The real name is "John".
-A woman called a dark-haired woman is here. Understand "Susan" as the dark-haired woman. The real name is "Susan". Susan carries a thing called garlic.
-A man called a bearded man is here. Understand "Pete" as a bearded man. The real name is "Pete". He wears a cowboy hat and cowboy boots. He carries a revolver.
-A woman called a pale woman is here. Understand "Darla" as the pale woman. The real name is "Darla".
-An animal called a brown dog is here. Understand "Rufus" as a brown dog. The real name is "Rufus". The animal type is "dog".
+The Square Center is a room.
+The Square NW is northwest of the square center.
+The Square NE is northeast of the square center.
+The Square N is north of the square center and west of the square ne and east of the square nw.
+The Square W is west of the square center and south of the square nw and southwest of the square n.
+The Square E is east of the square center and south of the square ne and southeast of the square n.
+The Square SE is southeast of the square center and south of the square e.
+The Square SW is southwest of the square center and south of the square w.
+The Square S is south of the square center and west of the square se and east of the square sw and southeast of the square w and southwest of the square e.
 
-Instead of quizzing someone about a brown dog:
-	say "[regarding the noun]'I think it belongs to Darla,' [they] [say]."
-Instead of quizzing a pale woman about a brown dog:
-	say "'Oh, Rufus! He's mine.' She smiles at the mutt.";
-	introduce a brown dog.
+A wandering man called John is in the square ne.
+A wandering woman called Susan is in the square nw.
+A wandering man called Paul is in the square se.
+A wandering woman called Agatha is in the square sw.
+A wandering man called Filip is in the square e.
+A wandering woman called Leslie is in the square w.
+A wandering man called Curtis is in the square center. He is shadowing yourself.
+A wandering animal called the turtle is in the square e. The wander turns is 10.
 
-Test me with "ask bearded man about name / look / ask dark-haired woman about name / look / ask balding man about name / look / ask pale woman about name / look / hi dog / look / ask John about dog / ask Darla about dog / look".
+Test me with "z / w / n / e / se / sw / e / n / z / z / z".

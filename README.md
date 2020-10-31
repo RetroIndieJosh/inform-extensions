@@ -40,6 +40,7 @@ To do:
 - bare bones, could have more
 - some parts could be their own extension but not enough content
 - should focus on things to be used across all extensions
+- remove includes and put in (for use with X) for anything that has dependencies
 - DOCUMENTATION
 - MORE TESTS
 

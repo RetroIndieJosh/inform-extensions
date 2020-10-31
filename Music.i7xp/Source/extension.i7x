@@ -86,7 +86,7 @@ Music ends here.
 Change the background music with
 
 	now the background music is the file "whatever.ogg"
-	
+
 Supported formats are ogg and mp3.
 
 Also included are the commands STOP MUSIC and START MUSIC for toggling music on/off.

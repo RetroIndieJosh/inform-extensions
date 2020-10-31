@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-20">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-55"/>
+  <item nodeId="node-20">
+    <command xml:space="preserve">Wander</command>
+    <result xml:space="preserve">- thing "Curtis" has no description&#x000A;- thing "Susan" has no description&#x000A;- thing "John" has no description&#x000A;- thing "Leslie" has no description&#x000A;- thing "Filip" has no description&#x000A;- thing "turtle" has no description&#x000A;- thing "Paul" has no description&#x000A;- thing "Agatha" has no description&#x000A;- room "Square Center" has no description&#x000A;- room "Square NW" has no description&#x000A;- room "Square NE" has no description&#x000A;- room "Square N" has no description&#x000A;- room "Square W" has no description&#x000A;- room "Square E" has no description&#x000A;- room "Square SE" has no description&#x000A;- room "Square SW" has no description&#x000A;- room "Square S" has no description&#x000A;&#x000A;Wander&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201031 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Square Center&#x000A;You can see Curtis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">- thing "Curtis" has no description&#x000A;- thing "Susan" has no description&#x000A;- thing "John" has no description&#x000A;- thing "Leslie" has no description&#x000A;- thing "Filip" has no description&#x000A;- thing "turtle" has no description&#x000A;- thing "Paul" has no description&#x000A;- thing "Agatha" has no description&#x000A;- room "Square Center" has no description&#x000A;- room "Square NW" has no description&#x000A;- room "Square NE" has no description&#x000A;- room "Square N" has no description&#x000A;- room "Square W" has no description&#x000A;- room "Square E" has no description&#x000A;- room "Square SE" has no description&#x000A;- room "Square SW" has no description&#x000A;- room "Square S" has no description&#x000A;&#x000A;Wander&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201031 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Square Center&#x000A;You can see Curtis here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Square W&#x000A;You can see Leslie here.&#x000A;&#x000A;Curtis arrives from the east.&#x000A;&#x000A;Leslie goes northeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Square W&#x000A;You can see Leslie here.&#x000A;&#x000A;Curtis arrives from the east.&#x000A;&#x000A;Leslie goes northeast.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Square NW&#x000A;Curtis arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Square NW&#x000A;Curtis arrives from the south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Square N&#x000A;You can see Leslie and John here.&#x000A;&#x000A;Curtis arrives from the west.&#x000A;&#x000A;John goes east.&#x000A;&#x000A;Leslie goes southwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Square N&#x000A;You can see Leslie and John here.&#x000A;&#x000A;Curtis arrives from the west.&#x000A;&#x000A;John goes east.&#x000A;&#x000A;Leslie goes southwest.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">Square E&#x000A;You can see the turtle here.&#x000A;&#x000A;Curtis arrives from the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Square E&#x000A;You can see the turtle here.&#x000A;&#x000A;Curtis arrives from the northwest.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Square S&#x000A;Curtis arrives from the northeast.&#x000A;&#x000A;Leslie arrives from the northwest.&#x000A;&#x000A;Filip arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Square S&#x000A;Curtis arrives from the northeast.&#x000A;&#x000A;Leslie arrives from the northwest.&#x000A;&#x000A;Filip arrives from the north.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Square SE&#x000A;Curtis arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Square SE&#x000A;Curtis arrives from the west.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Square E&#x000A;You can see the turtle here.&#x000A;&#x000A;Curtis arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Square E&#x000A;You can see the turtle here.&#x000A;&#x000A;Curtis arrives from the south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;John arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Time passes.&#x000A;&#x000A;John arrives from the north.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The turtle goes south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Time passes.&#x000A;&#x000A;The turtle goes south.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

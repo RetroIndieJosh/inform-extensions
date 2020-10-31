@@ -20,7 +20,7 @@ Instead of requesting a person (called the holder) for something (called the tar
 	
 Knowing relates one person to various things. The verb to know means the knowing relation.
 
-Section 3 Unknown People and Introductions
+Section 3 - Unknown People and Introductions
 
 Understand "person" as a visible person. Understand "man" as a visible man. Understand "woman" as a visible woman.
 
@@ -39,14 +39,14 @@ When play begins: introduce the player.
 
 A person has text called the real name. The real name is usually "Anonymous".
 
-Section 4 Worn Objects Have Zero Bulk
+Section 4 - Worn Objects Have Zero Bulk
 
 To decide what number is the free capacity of (targetperson - a person): 
 	let sum be the total bulk of the things carried by targetperson which are not worn; 
 	now sum is the bulk capacity of the targetperson minus sum;  
 	decide on the sum.
 
-Section 5 Sleep
+Section 5 - Sleep
 
 A person can be awake or asleep. A person is usually awake.
 
@@ -66,7 +66,7 @@ Carry out waking:
 Report waking:
 	say "[The noun] awakens."
 
-Section 6 Show Person's Inventory
+Section 6 - Show Person's Inventory
 
 After examining a person (called the target) (this is the show carried and worn items rule):
 	let the carry description be "";
@@ -83,7 +83,7 @@ After examining a person (called the target) (this is the show carried and worn 
 		say "[regarding the target][They] [the wear description].";
 	continue the action.
 
-Section 7 Conversation
+Section 7 - Conversation
 	
 Understand "hello [someone]" and "hi [someone]" and "hey [someone]"as saying hello to.
 
@@ -91,7 +91,7 @@ Understand "goodbye [someone]" and "bye [someone]" as saying goodbye to.
 
 Responding is an action applying to one topic. Understand "respond [text]" as responding. Report responding: say "Try the format [b]ANSWER (response) TO (person)[/b] or [b](person), (response)[/b] instead."
 
-Section 8 Subjects
+Section 8 - Subjects
 
 Their name is a subject.
 
@@ -101,6 +101,37 @@ After quizzing someone about their name:
 	otherwise:
 		say "'My name is [real name],' [they] [say]. 'Nice to meet you.'";
 		introduce the noun.
+		
+Section 9 - Wandering
+
+Going randomly is an action applying to nothing.
+
+Carry out someone going randomly:
+	let space be the holder of the person asked;
+	let place be a random room which is adjacent to the space;
+	let way be the best route from the space to the place;
+	try the person asked going way.
+
+A person can be wandering. A person is usually not wandering.
+A person has a number called the wander turns. The wander turns is usually 1.
+A person has a number called the wander countdown. The wander countdown is usually 1.
+
+When play begins:
+	Repeat with actor running through wandering people:
+		now the wander countdown of the actor is the wander turns of the actor.
+
+Every turn:
+	Repeat with actor running through wandering people:
+		if the wander countdown of the actor is 0:
+			try actor going randomly;
+			now the wander countdown of the actor is the wander turns of the actor;
+		otherwise:
+			decrement the wander countdown of the actor.
+			
+Section 10 - Stop Followers Wandering (for use with Simple Followers by Emily Short)
+
+Check someone going randomly:
+	if the person asked is shadowing someone, stop.
 
 People ends here.
 
@@ -153,3 +184,32 @@ Example: * Introductions - Get names from several people, and a dog!
 		introduce a brown dog.
 	
 	Test me with "ask bearded man about name / look / ask dark-haired woman about name / look / ask balding man about name / look / ask pale woman about name / look / hi dog / look / ask John about dog / ask Darla about dog / look".
+	
+Example: * Wander - People wandering about.
+
+	*: "Wander"
+	
+	Include People by Joshua McLean.
+	
+	When play begins, seed the random-number generator with 17.
+	
+	The Square Center is a room.
+	The Square NW is northwest of the square center.
+	The Square NE is northeast of the square center.
+	The Square N is north of the square center and west of the square ne and east of the square nw.
+	The Square W is west of the square center and south of the square nw and southwest of the square n.
+	The Square E is east of the square center and south of the square ne and southeast of the square n.
+	The Square SE is southeast of the square center and south of the square e.
+	The Square SW is southwest of the square center and south of the square w.
+	The Square S is south of the square center and west of the square se and east of the square sw and southeast of the square w and southwest of the square e.
+
+	A wandering man called John is in the square ne.
+	A wandering woman called Susan is in the square nw.
+	A wandering man called Paul is in the square se.
+	A wandering woman called Agatha is in the square sw.
+	A wandering man called Filip is in the square e.
+	A wandering woman called Leslie is in the square w.
+	A wandering man called Curtis is in the square center. He is shadowing yourself.
+	A wandering animal called the turtle is in the square e. The wander turns is 10.
+
+	Test me with "z / w / n / e / se / sw / e / n / z / z / z".

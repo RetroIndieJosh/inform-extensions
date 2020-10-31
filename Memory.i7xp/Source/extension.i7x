@@ -4,6 +4,8 @@ Memory by Joshua McLean begins here.
 
 Include General by Joshua McLean.
 
+[TODO use "the holder of X" to get general containment relation (room, container, etc.)]
+
 Section 1 - Setup
 
 The auto memory is some text that varies.
