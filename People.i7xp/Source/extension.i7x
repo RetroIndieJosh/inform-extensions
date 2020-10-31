@@ -2,10 +2,10 @@ People by Joshua McLean begins here.
 
 "People handling, including anonymous characters and introductions, zero-bulk worn items, sleeping/waking, seeing a character's inventory, and improvements built over Eric Eve's Conversation Framework."
 
-Include General by Joshua McLean.
+[Include General by Joshua McLean.
 
 Include Conversation Framework by Eric Eve. [18,872]
-Include Bulk Limiter by Eric Eve. [2,272]
+Include Bulk Limiter by Eric Eve. [2,272]]
 
 Section 1 - Life
 
@@ -15,9 +15,6 @@ Section 2 - Giving, Taking, and Knowing
 
 The block giving rule is not listed in the check giving it to rulebook.
 
-Instead of requesting a person (called the holder) for something (called the target):
-	say "[Holder] doesn't seem interested in giving you [the target]."
-	
 Knowing relates one person to various things. The verb to know means the knowing relation.
 
 Section 3 - Unknown People and Introductions
@@ -83,15 +80,16 @@ After examining a person (called the target) (this is the show carried and worn 
 		say "[regarding the target][They] [the wear description].";
 	continue the action.
 
-Section 7 - Conversation
-	
+Section 7 - Conversation and Subjects (For use with Conversation Framework by Eric Eve)
+
+Instead of requesting a person (called the actor) for something (called the target):
+	say "[The actor] doesn't seem interested in giving you [the target]."
+
 Understand "hello [someone]" and "hi [someone]" and "hey [someone]"as saying hello to.
 
 Understand "goodbye [someone]" and "bye [someone]" as saying goodbye to.
 
 Responding is an action applying to one topic. Understand "respond [text]" as responding. Report responding: say "Try the format [b]ANSWER (response) TO (person)[/b] or [b](person), (response)[/b] instead."
-
-Section 8 - Subjects
 
 Their name is a subject.
 
@@ -102,7 +100,7 @@ After quizzing someone about their name:
 		say "'My name is [real name],' [they] [say]. 'Nice to meet you.'";
 		introduce the noun.
 		
-Section 9 - Wandering
+Section 8 - Wandering
 
 Going randomly is an action applying to nothing.
 
@@ -128,7 +126,7 @@ Every turn:
 		otherwise:
 			decrement the wander countdown of the actor.
 			
-Section 10 - Stop Followers Wandering (for use with Simple Followers by Emily Short)
+Section  - Stop Followers Wandering (for use with Simple Followers by Emily Short)
 
 Check someone going randomly:
 	if the person asked is shadowing someone, stop.
@@ -166,6 +164,9 @@ Example: * Introductions - Get names from several people, and a dog!
 
 	*: "Introductions"
 	
+	Include Conversation Framework by Eric Eve.
+	
+	Include General by Joshua McLean.
 	Include People by Joshua McLean.
 	
 	The check for missing descriptions when play begins rule is not listed in any rulebook.
@@ -189,7 +190,12 @@ Example: * Wander - People wandering about.
 
 	*: "Wander"
 	
+	Include Simple Followers by Emily Short.
+	
+	Include General by Joshua McLean.
 	Include People by Joshua McLean.
+	
+	The check for missing descriptions when play begins rule is not listed in any rulebook.
 	
 	When play begins, seed the random-number generator with 17.
 	

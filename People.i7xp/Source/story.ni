@@ -1,6 +1,11 @@
 "Wander"
 
+Include Simple Followers by Emily Short.
+
+Include General by Joshua McLean.
 Include People by Joshua McLean.
+
+The check for missing descriptions when play begins rule is not listed in any rulebook.
 
 When play begins, seed the random-number generator with 17.
 
