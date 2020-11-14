@@ -10,8 +10,8 @@ release to "M:\gamedev\projects\inform\inform-extensions\Shopping.materials\Rele
 
 ! Blorb instructions
 
-storyfile leafname "Purchasing Equipment.zblorb"
-storyfile "M:\gamedev\projects\inform\inform-extensions\Shopping.i7xp\Build\output.z8" include
+storyfile leafname "Purchasing Equipment.gblorb"
+storyfile "M:\gamedev\projects\inform\inform-extensions\Shopping.i7xp\Build\output.ulx" include
 ifiction "M:\gamedev\projects\inform\inform-extensions\Shopping.i7xp\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"

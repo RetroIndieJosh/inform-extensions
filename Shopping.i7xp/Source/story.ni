@@ -5,13 +5,17 @@ Include Conversation Framework by Eric Eve.
 Include Shopping by Joshua McLean.
 
 When play begins:
-	give the player 15 coins.
+	give 15 coins to the player.
 
 The Adventurers Shop is a shop. "A shop for adventurers. The street is north."
 A male shopkeeper called John is here. He is without description. The owner of the adventurers shop is John.
 
 A female shopkeeper called Susan is here. She is without description.
-A man called Thomas is here. He is without description.
+A man called Thomas is here. He is without description. The bribe amount is 5.
+After bribing when the second noun is Thomas and Thomas is not bribed:
+	say "He tilts his head. 'Perhaps you could give a bit more?'".
+After finishing bribing Thomas:
+	say "He smiles. 'Thank you.'".
 
 A supporter called the countertop is here. Understand "counter" and "counter top" as the countertop. The description is "A broad, wooden counter for holding goods."
 An unpaid thing called the sword is on the countertop. The coin value of the sword is 8. It is without description.

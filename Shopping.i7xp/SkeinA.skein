@@ -1,188 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-70">
+<Skein rootNode="node-52">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-90"/>
-  <item nodeId="node-70">
+  <activeNode nodeId="node-72"/>
+  <item nodeId="node-52">
     <command xml:space="preserve">Purchasing Equipment</command>
-    <result xml:space="preserve">Purchasing Equipment&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201031 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Adventurers Shop&#x000A;A shop for adventurers. The street is north.&#x000A;&#x000A;You can see John, Susan, Thomas, and the countertop (on which are the sword, the shield, and the helmet) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Purchasing Equipment&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201113 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Adventurers Shop&#x000A;A shop for adventurers. The street is north.&#x000A;&#x000A;You can see John, Susan, Thomas, and the countertop (on which are the sword, the shield, and the helmet) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Purchasing Equipment&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201022 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Adventurers Shop&#x000A;A shop for adventurers. The street is north.&#x000A;&#x000A;You can see John, Susan, Thomas, and the countertop (on which are the sword, the shield, and the helmet) here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">list</command>
+    <result xml:space="preserve">You see the following for sale:&#x000A;  sword for 8 coins&#x000A;  shield for 10 coins&#x000A;  helmet for 4 coins&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You see the following for sale:&#x000A;  sword for 8 coins&#x000A;  shield for 10 coins&#x000A;  helmet for 4 coins&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">ask thomas about sword</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">ask susan about sword</command>
+    <result xml:space="preserve">"That's not my sword," she says. "You'll have to ask John."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"That's not my sword," she says. "You'll have to ask John."&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">ask john about sword</command>
+    <result xml:space="preserve">He considers the sword. "That'll be 8 coins."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">He considers the sword. "That'll be 8 coins."&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">get sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">get shield</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">wear shield</command>
+    <result xml:space="preserve">You put on the shield.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You put on the shield.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">get helmet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 22 coins."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 22 coins."&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  the helmet (unpaid)&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword (unpaid)&#x000A;  the purse (with 15 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are carrying:&#x000A;  the helmet (unpaid)&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword (unpaid)&#x000A;  the purse (with 15 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">pay for sword</command>
+    <result xml:space="preserve">You give 8 coins to John to pay for the sword.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You give 8 coins to John to pay for the sword.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">pay for shield</command>
+    <result xml:space="preserve">You don't have enough to pay for the shield.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You don't have enough to pay for the shield.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">pay thomas</command>
+    <result xml:space="preserve">You should only pay shopkeepers.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You should only pay shopkeepers.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">pay susan</command>
+    <result xml:space="preserve">You should probably pay the owner of the shop, John.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You should probably pay the owner of the shop, John.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">pay john</command>
+    <result xml:space="preserve">You owe 14 coins but only have 7.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You owe 14 coins but only have 7.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">pay for helmet</command>
+    <result xml:space="preserve">You give 4 coins to John to pay for the helmet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You give 4 coins to John to pay for the helmet.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  the helmet&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword&#x000A;  the purse (with 3 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are carrying:&#x000A;  the helmet&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword&#x000A;  the purse (with 3 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 10 coins."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 10 coins."&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-71"/>
     </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">list</command>
-    <result xml:space="preserve">You see the following for sale:&#x000A;  sword for 8 coins&#x000A;  shield for 10 coins&#x000A;  helmet for 4 coins&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You see the following for sale:&#x000A;  sword for 8 coins&#x000A;  shield for 10 coins&#x000A;  helmet for 4 coins&#x000A;&#x000A;&gt;</commentary>
+    <command xml:space="preserve">drop unpaid</command>
+    <result xml:space="preserve">(first taking the shield off)&#x000A;You drop the shield on the floor. With a grumble, John picks it up and replaces it on the countertop.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first taking the shield off)&#x000A;You drop the shield on the floor. With a grumble, John picks it up and replaces it on the countertop.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-72"/>
     </children>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">ask thomas about sword</command>
-    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-73"/>
-    </children>
-  </item>
-  <item nodeId="node-73">
-    <command xml:space="preserve">ask susan about sword</command>
-    <result xml:space="preserve">"That's not my sword," she says. "You'll have to ask John."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">"That's not my sword," she says. "You'll have to ask John."&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-74"/>
-    </children>
-  </item>
-  <item nodeId="node-74">
-    <command xml:space="preserve">ask john about sword</command>
-    <result xml:space="preserve">He considers the sword. "That'll be 8 coins."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">He considers the sword. "That'll be 8 coins."&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-75"/>
-    </children>
-  </item>
-  <item nodeId="node-75">
-    <command xml:space="preserve">get sword</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-76"/>
-    </children>
-  </item>
-  <item nodeId="node-76">
-    <command xml:space="preserve">get shield</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-77"/>
-    </children>
-  </item>
-  <item nodeId="node-77">
-    <command xml:space="preserve">wear shield</command>
-    <result xml:space="preserve">You put on the shield.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You put on the shield.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-78"/>
-    </children>
-  </item>
-  <item nodeId="node-78">
-    <command xml:space="preserve">get helmet</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-79"/>
-    </children>
-  </item>
-  <item nodeId="node-79">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 22 coins."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 22 coins."&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-80"/>
-    </children>
-  </item>
-  <item nodeId="node-80">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  the helmet (unpaid)&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword (unpaid)&#x000A;  the coin purse (with 15 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You are carrying:&#x000A;  the helmet (unpaid)&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword (unpaid)&#x000A;  the coin purse (with 15 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-81"/>
-    </children>
-  </item>
-  <item nodeId="node-81">
-    <command xml:space="preserve">pay for sword</command>
-    <result xml:space="preserve">You give 8 coins to John to pay for the sword.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You give 8 coins to John to pay for the sword.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-82"/>
-    </children>
-  </item>
-  <item nodeId="node-82">
-    <command xml:space="preserve">pay for shield</command>
-    <result xml:space="preserve">You don't have enough to pay for the shield.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You don't have enough to pay for the shield.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-83"/>
-    </children>
-  </item>
-  <item nodeId="node-83">
-    <command xml:space="preserve">pay thomas</command>
-    <result xml:space="preserve">You should only pay shopkeepers.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You should only pay shopkeepers.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-84"/>
-    </children>
-  </item>
-  <item nodeId="node-84">
-    <command xml:space="preserve">pay susan</command>
-    <result xml:space="preserve">You should probably pay the owner of the shop, John.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You should probably pay the owner of the shop, John.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-85"/>
-    </children>
-  </item>
-  <item nodeId="node-85">
-    <command xml:space="preserve">pay john</command>
-    <result xml:space="preserve">You owe 14 coins but only have 7.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You owe 14 coins but only have 7.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-86"/>
-    </children>
-  </item>
-  <item nodeId="node-86">
-    <command xml:space="preserve">pay for helmet</command>
-    <result xml:space="preserve">You give 4 coins to John to pay for the helmet.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You give 4 coins to John to pay for the helmet.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-87"/>
-    </children>
-  </item>
-  <item nodeId="node-87">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  the helmet&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword&#x000A;  the coin purse (with 3 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You are carrying:&#x000A;  the helmet&#x000A;  the shield (unpaid) (being worn)&#x000A;  the sword&#x000A;  the coin purse (with 3 coins)&#x000A;  a dagger&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-88"/>
-    </children>
-  </item>
-  <item nodeId="node-88">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 10 coins."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">"Hey!" says John. "You can't leave. You still owe me 10 coins."&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-89"/>
-    </children>
-  </item>
-  <item nodeId="node-89">
-    <command xml:space="preserve">drop unpaid</command>
-    <result xml:space="preserve">(first taking the shield off)&#x000A;You drop the shield on the floor. With a grumble, John picks it up and replaces it on the countertop.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">(first taking the shield off)&#x000A;You drop the shield on the floor. With a grumble, John picks it up and replaces it on the countertop.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-90"/>
-    </children>
-  </item>
-  <item nodeId="node-90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Street&#x000A;An empty cobblestone street. The shop is south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Street&#x000A;An empty cobblestone street. The shop is south.&#x000A;&#x000A;&gt;</commentary>

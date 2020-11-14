@@ -28,8 +28,7 @@ following notice and a copy of the included `LICENSE.md`.
 replace dependencies with (for use with X):
 - memory (review after general)
 - shopping (review after general)
-- time management
-- violence
+- violence (review after general)
 - general
 
 tests:

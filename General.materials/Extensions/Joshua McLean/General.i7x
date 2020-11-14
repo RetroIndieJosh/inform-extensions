@@ -1,18 +1,25 @@
 General by Joshua McLean begins here.
 
-[Commented-out extensions are ones I considered using but decided against. They remain here so I know the sizes in case I want to reintroduce them.]
-[Standard Rules + English Language = 389,856 / 134,432 free]
+[
 
-Include Alternatives by Eric Eve. [96]
-Include Bulk Limiter by Eric Eve. [2,272]
-Include Exit Lister by Eric Eve. [7,608]
-Include Epistemology by Eric Eve. [2,616]
-Include Locksmith by Emily Short. [13,080]
-Include Postures by Emily Short. [12,264]
-Include Response Assistant by Aaron Reed. [1,368]
-Include Simple Followers by Emily Short. [7,544]
-Include Skeleton Keys by Emily Short. [240]
-Include Variable Time Control by Eric Eve. [1,760]
+[syntax]
+Include Alternatives by Eric Eve.
+Include Epistemology by Eric Eve.
+
+[new features]
+Include Bulk Limiter by Eric Eve.
+Include Postures by Emily Short.
+Include Skeleton Keys by Emily Short.
+Include Locksmith by Emily Short.
+Include Response Assistant by Aaron Reed.
+Include Simple Followers by Emily Short.
+Include Variable Time Control by Eric Eve.
+
+[player help]
+Include Approaches by Emily Short.
+Include Exit Lister by Eric Eve.
+
+]
 
 Use American dialect, [brief room descriptions, ]scoring, and the serial comma.
 
@@ -20,15 +27,19 @@ Section 1 - Release Extensions - For release only
 
 [Extensions with automatic game changes to make it easier to play. Don't compile for debug so we can compile faster.]
 
-Include Commonly Unimplemented by Aaron Reed. [4,952]
-Include Reversed Persuasion Correction by Juhana Leinonen. [1,568]
-Include Small Kindnesses by Aaron Reed. [7,360]
-Include Smarter Parser by Aaron Reed. [33,928]
-Include Title Page by Jon Ingold. [8,096]
+[
+
+Include Commonly Unimplemented by Aaron Reed.
+Include Reversed Persuasion Correction by Juhana Leinonen.
+Include Small Kindnesses by Aaron Reed.
+Include Smarter Parser by Aaron Reed.
+Include Title Page by Jon Ingold.
+
+]
 
 Section 2 - Testing (Debug) - Not for release
 
-An object can be without description. A subject is usually without description.
+An object can be without description.
 
 light-meter is without description. [not sure where this comes from but this keeps it out of our list]
 
@@ -39,25 +50,29 @@ When play begins (this is the check for missing descriptions when play begins ru
 	repeat with place running through rooms:
 		if description of the place is "" and the place is not without description: 
 			say "- room '[place]' has no description[br]"
+			
+Section 3 - Subjects Have No Description (for use with Conversation Framework by Eric Eve)
 
-Section 3 - Testing (Release) - For release only
+A subject is usually without description.
+
+Section 4 - Testing (Release) - For release only
 
 After reading a command (this is the ignore beta-comments rule): 
 	if the player's command matches the regular expression "^\p": 
 		say "(Noted.)"; 
 		reject the player's command. 
 
-Section 4 - Default Responses
+Section 5 - Default Responses
 
 A thing can be examined. A thing is usually not examined. After examining something (called the target): now the target is examined.
 
 Instead of taking some scenery, say "That's not the sort of thing you can carry around."
 
-Section 5 - Bulk
+Section 6 - Bulk (for use with Bulk Limiter by Eric Eve)
 
 The bulk of a thing is usually 5. The bulk capacity of the player is 20.
 
-Section 6 - Vulgarity
+Section 7 - Vulgarity
 
 Being vulgar is an action applying to nothing. Understand "shit", "fuck", "damn", "ass", "motherfuck", "motherfucker", "bullshit", "dammit", "damnit", "goddamn", and "bitch" as being vulgar.
 Report being vulgar:
@@ -66,7 +81,7 @@ Being vulgar to is an action applying to one topic. Understand "shit [text]", "f
 Carry out being vulgar to:
 	try being vulgar.
 
-Section 7 - Text Handling
+Section 8 - Text Handling
 
 To say i -- beginning say_i -- running on: (- style underline; -). 
 To say /i -- ending say_i -- running on: (- style roman; -). 
@@ -77,34 +92,45 @@ To say br: say line break.
 
 To sayn (str - text):
 	say "[str][/p]".
+	
+To say (str - some text) lines (n - a number) to (n2 - a number):
+	if n >= n2:
+		say "";
+	let result be "";
+	repeat with curline running from n to n2:
+		let line be line number curline in str;
+		now result is "[result][line][br]";
+	say result.
 
 To say (str - some text) without line (n - a number):
 	let result be "";
-	repeat with curline running from 1 to the number of lines in str:
-		if curline is not n:
-			let line be line number curline in str;
-			now result is "[result][line][br]";
-	say result.
+	let nplus be n + 1;
+	say "[str lines 1 to n][str lines nplus to number of lines in str]".
 
-[When play begins:
-	let t be "This is the first line[br]and the second line[br]but now this should be the second line.";
-	now t is "[t without line 2]";
-	say "[t]".]
+To say insert (str - some text) into (target - some text) after line (n - a number):
+	let nplus be n + 1;
+	let end be the number of lines in target;
+	say "[target lines 1 to n][str][br][target lines nplus to end]".
+	
+To say replace (target - some text) line (n - a number) with (str - some text):
+	let nminus be n - 1;
+	let nplus be n + 1;
+	say "[target lines 1 to nminus][str][br][target lines nplus to number of lines in target]".
 
-Section 8 - Saving
+Section 9 - Saving
 
 [count saves]
 The number of saves is a number which varies.
 Check saving the game: increment the number of saves; continue the action.
 
-Section 9 - Pulling
+Section 10 - Pulling
 
 The report pulling rule is not listed in the report pulling rulebook.
 A thing can be pullable. A thing is usually not pullable. Definition: a thing is unpullable if it is not pullable.
 Check pulling:
 	if the noun is not pullable, say "You can't pull that." instead.
 		
-Section 10 - Default Scenery
+Section 11 - Default Scenery
 
 A door is usually scenery.
 
@@ -126,4 +152,14 @@ Example: * Foobar - Shebang bin bash.
 	
 	Include General by Joshua McLean.
 	
-	The Somewhere is a room. "A place, somewhere." A thing called the foobar is here. [It is without description.]
+	When play begins:
+		let the number list be "1[br]2[br]3[br]4[br]5";
+		say "This is just a standard say statement.";
+		sayn "This is a sayn statement. It should end in a newline.";
+		sayn "The [i]number list[/i] is:[/p][the number list]";
+		sayn "[b]Prime numbers[/b] are:[/p][the number list without line 4]";
+		let the new number be "4.5";
+		sayn "If we put [b]4.5[/b] where it belongs we have:[/p][insert the new number into the number list after line 4]";
+		[sayn "If we replace 3 with 4.5 we get:[/p][replace the number list line 3 with the new number]".]
+	
+	The Somewhere is a room. "A place, somewhere." A thing called the foobar is here. It is without description.
