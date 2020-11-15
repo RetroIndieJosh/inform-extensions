@@ -22,6 +22,6 @@ Carry out descending:
 
 Section - Clothing
 
-Clothing is a kind of wearable thing. Instead of the player taking off clothing, say "You should probably keep that on."
+clothing is a kind of wearable thing. The plural of clothing is clothing. Instead of the player taking off clothing, say "[The actor] [should] probably [keep] that on."
 
 Household Items ends here.

@@ -1,41 +1,6 @@
 General by Joshua McLean begins here.
 
-[
-
-[syntax]
-Include Alternatives by Eric Eve.
-Include Epistemology by Eric Eve.
-
-[new features]
-Include Bulk Limiter by Eric Eve.
-Include Postures by Emily Short.
-Include Skeleton Keys by Emily Short.
-Include Locksmith by Emily Short.
-Include Response Assistant by Aaron Reed.
-Include Simple Followers by Emily Short.
-Include Variable Time Control by Eric Eve.
-
-[player help]
-Include Approaches by Emily Short.
-Include Exit Lister by Eric Eve.
-
-]
-
-Use American dialect, [brief room descriptions, ]scoring, and the serial comma.
-
-Section 1 - Release Extensions - For release only
-
-[Extensions with automatic game changes to make it easier to play. Don't compile for debug so we can compile faster.]
-
-[
-
-Include Commonly Unimplemented by Aaron Reed.
-Include Reversed Persuasion Correction by Juhana Leinonen.
-Include Small Kindnesses by Aaron Reed.
-Include Smarter Parser by Aaron Reed.
-Include Title Page by Jon Ingold.
-
-]
+Use American dialect, scoring, and the serial comma.
 
 Section 2 - Testing (Debug) - Not for release
 
