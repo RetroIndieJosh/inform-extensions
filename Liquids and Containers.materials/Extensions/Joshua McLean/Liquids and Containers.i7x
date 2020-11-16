@@ -40,17 +40,17 @@ Chapter 4 - Drinking
 
 The block drinking rule is not listed in any rulebook.
 
-A liquid can be drinkable. A liquid is usually not drinkable.
+A liquid can be drinkable. Definition: A liquid is undrinkable if it is not drinkable. A liquid is usually not drinkable.
 
 To drink (he drinks, they drink, he drank, it is drunk, he is drinking) is a verb.
 
 Check drinking something:
 	if the noun is not a liquid container, say "You can't drink that." instead;
-	if the noun is empty, say "[The noun] is empty. Nothing to drink in there." instead.
+	if the noun is empty, say "[The noun] is empty. Nothing to drink in there." instead;
+	if the contained liquid of the noun is undrinkable, say "That [don't] look too palatable." instead.
 
 Carry out drinking something:
-	if the contained liquid of the noun is drinkable, now the noun is empty;
-	otherwise say "That [don't] look too palatable." instead.
+	if the contained liquid of the noun is not bottomless, now the noun is empty.
 	
 Report drinking something:
 	say "[The actor] [drink] [the contained liquid of the noun] from [the noun]."
@@ -86,7 +86,7 @@ Carry out pouring it into:
 		if found a match is false:
 			say "Best not do that.";
 			stop the action;
-	now the noun is empty;
+	if the noun is not bottomless, now the noun is empty;
 	now the second noun is full;
 	say "[The actor] [pour] [the contained liquid of the noun] from [the noun] into [the second noun] which now contains [the contained liquid of the second noun]."
 

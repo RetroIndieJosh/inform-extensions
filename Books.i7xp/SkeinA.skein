@@ -1,116 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-71">
+<Skein rootNode="node-225">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-118"/>
-  <item nodeId="node-71">
+  <activeNode nodeId="node-237"/>
+  <item nodeId="node-225">
     <command xml:space="preserve">Books</command>
-    <result xml:space="preserve">Books&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201115 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Library&#x000A;You can see Calculus and Cooking here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Books&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201116 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Library&#x000A;You can see Calculus and Cooking here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Books&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201115 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Library&#x000A;You can see Calculus and Cooking here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-104"/>
+      <child nodeId="node-226"/>
     </children>
   </item>
-  <item nodeId="node-104">
+  <item nodeId="node-226">
     <command xml:space="preserve">get calculus</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-108"/>
+      <child nodeId="node-227"/>
     </children>
   </item>
-  <item nodeId="node-108">
+  <item nodeId="node-227">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">Reading Area&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Reading Area&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-109"/>
+      <child nodeId="node-228"/>
     </children>
   </item>
-  <item nodeId="node-109">
+  <item nodeId="node-228">
     <command xml:space="preserve">read book</command>
-    <result xml:space="preserve">Page 1 reads: "Welcome to Calculus! You will learn limits, derivatives, and integrals."&#x000A;&#x000A;Page 2 reads: "The limit as x goes to 0 of the function 3x + 1 is 1."&#x000A;&#x000A;Page 3 reads: "The limit as x goes to infinity of the function (3x + 1)/(3x^2 - 2) is 0."&#x000A;&#x000A;Page 4 reads: "The derivative of 4x^2 + 2x + 8 is 4x + 2."&#x000A;&#x000A;Page 5 reads: "The derivative of sin x is cos x."&#x000A;&#x000A;Page 6 reads: "Integrals are boring. Don't worry about those."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Page 1 reads: "Welcome to Calculus! You will learn limits, derivatives, and integrals."&#x000A;&#x000A;Page 2 reads: "The limit as x goes to 0 of the function 3x + 1 is 1."&#x000A;&#x000A;Page 3 reads: "The limit as x goes to infinity of the function (3x + 1)/(3x^2 - 2) is 0."&#x000A;&#x000A;Page 4 reads: "The derivative of 4x^2 + 2x + 8 is 4x + 2."&#x000A;&#x000A;Page 5 reads: "The derivative of sin x is cos x."&#x000A;&#x000A;Page 6 reads: "Integrals are boring. Don't worry about those."&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">Calculus is quite long; best to read a specific page.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Calculus is quite long; best to read a specific page.&#x000A;&#x000A;&gt;</commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-110"/>
+      <child nodeId="node-229"/>
     </children>
   </item>
-  <item nodeId="node-110">
+  <item nodeId="node-229">
     <command xml:space="preserve">read page 2</command>
     <result xml:space="preserve">Page 2 reads: "The limit as x goes to 0 of the function 3x + 1 is 1."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Page 2 reads: "The limit as x goes to 0 of the function 3x + 1 is 1."&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-111"/>
+      <child nodeId="node-230"/>
     </children>
   </item>
-  <item nodeId="node-111">
+  <item nodeId="node-230">
     <command xml:space="preserve">drop book</command>
     <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-112"/>
+      <child nodeId="node-231"/>
     </children>
   </item>
-  <item nodeId="node-112">
+  <item nodeId="node-231">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Library&#x000A;You can see Cooking here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Library&#x000A;You can see Cooking here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-113"/>
+      <child nodeId="node-232"/>
     </children>
   </item>
-  <item nodeId="node-113">
+  <item nodeId="node-232">
     <command xml:space="preserve">read page 5</command>
     <result xml:space="preserve">No visible book has a page 5.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">No visible book has a page 5.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-114"/>
+      <child nodeId="node-233"/>
     </children>
   </item>
-  <item nodeId="node-114">
+  <item nodeId="node-233">
     <command xml:space="preserve">read page 1</command>
     <result xml:space="preserve">Page 1 reads: "A recipe for Chicken Francese..."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Page 1 reads: "A recipe for Chicken Francese..."&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
-      <child nodeId="node-115"/>
+      <child nodeId="node-234"/>
     </children>
   </item>
-  <item nodeId="node-115">
+  <item nodeId="node-234">
     <command xml:space="preserve">get book</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-116"/>
+      <child nodeId="node-235"/>
     </children>
   </item>
-  <item nodeId="node-116">
+  <item nodeId="node-235">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Reading Area&#x000A;You can see Calculus here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Reading Area&#x000A;You can see Calculus here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-117"/>
+      <child nodeId="node-236"/>
     </children>
   </item>
-  <item nodeId="node-117">
+  <item nodeId="node-236">
     <command xml:space="preserve">read page 4</command>
     <result xml:space="preserve">Page 4 reads: "The derivative of 4x^2 + 2x + 8 is 4x + 2."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Page 4 reads: "The derivative of 4x^2 + 2x + 8 is 4x + 2."&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-118"/>
+      <child nodeId="node-237"/>
     </children>
   </item>
-  <item nodeId="node-118">
+  <item nodeId="node-237">
     <command xml:space="preserve">read calculus page 4</command>
     <result xml:space="preserve">Page 4 reads: "The derivative of 4x^2 + 2x + 8 is 4x + 2."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Page 4 reads: "The derivative of 4x^2 + 2x + 8 is 4x + 2."&#x000A;&#x000A;&gt;</commentary>

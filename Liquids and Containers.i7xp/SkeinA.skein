@@ -164,7 +164,7 @@
     <command xml:space="preserve">drink soda</command>
     <result xml:space="preserve">You drink soda from the soda can.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You drink soda from the soda can.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-202"/>
     </children>
@@ -173,7 +173,7 @@
     <command xml:space="preserve">dump milk</command>
     <result xml:space="preserve">You dump milk from the milk jug onto the ground, where it is quickly absorbed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You dump milk from the milk jug onto the ground, where it is quickly absorbed.&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-203"/>
     </children>

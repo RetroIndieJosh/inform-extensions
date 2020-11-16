@@ -6,12 +6,12 @@ A book is a kind of thing. A book has a list of text called pages. A book can be
 
 After examining a book, say "It [have] [number of pages in the noun] pages."
 
-To add page (str - text) to (b - a book):
+To add (str - text) to (b - a book):
 	add str to the pages of b.
 	
 To add (l - list of values) to (b - a book):
 	repeat with p running through l:
-		add page p to b.
+		add p to b.
 
 Section 2 - Reading
 
@@ -25,11 +25,12 @@ To display page (n - number) in (b - book):
 	say "Page [n] reads: '[str]'[paragraph break]".
 
 Understand the command "read" as something new.
-The empty book description is text that varies. The empty book description is "It's blank."
+The empty book description is text that varies. When play begins, if the empty book description is "", now the empty book description is "It's blank."
 Reading it is an action applying to one visible thing and requiring light. Understand "read [something]" as reading it.
 Check reading it:
 	if the noun is not a book, say "That's not readable." instead;
-	if the number of pages in the noun is 0, say "[empty book description]" instead.
+	if the number of pages in the noun is 0, say "[empty book description]" instead;
+	if the number of pages in the noun is greater than 4, say "[The noun] is quite long; best to read a specific page." instead.
 Carry out reading it:
 	repeat with n running from 1 to the number of pages in the noun:
 		display page n in the noun;
