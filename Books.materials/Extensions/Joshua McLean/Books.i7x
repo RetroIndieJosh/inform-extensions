@@ -25,9 +25,11 @@ To display page (n - number) in (b - book):
 	say "Page [n] reads: '[str]'[paragraph break]".
 
 Understand the command "read" as something new.
+The empty book description is text that varies. The empty book description is "It's blank."
 Reading it is an action applying to one visible thing and requiring light. Understand "read [something]" as reading it.
 Check reading it:
-	if the noun is not a book, say "That's not readable." instead.
+	if the noun is not a book, say "That's not readable." instead;
+	if the number of pages in the noun is 0, say "[empty book description]" instead.
 Carry out reading it:
 	repeat with n running from 1 to the number of pages in the noun:
 		display page n in the noun;
