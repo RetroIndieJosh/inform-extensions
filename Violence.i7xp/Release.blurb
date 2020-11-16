@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "M:\gamedev\projects\inform\bardolfs-curse\extensions\Violence.i7xp\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "M:\gamedev\projects\inform\inform-extensions\Violence.i7xp\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "M:\gamedev\projects\inform\bardolfs-curse\extensions\Violence.i7xp"
-release to "M:\gamedev\projects\inform\bardolfs-curse\extensions\Violence.materials\Release"
+project folder "M:\gamedev\projects\inform\inform-extensions\Violence.i7xp"
+release to "M:\gamedev\projects\inform\inform-extensions\Violence.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Weapons.zblorb"
-storyfile "M:\gamedev\projects\inform\bardolfs-curse\extensions\Violence.i7xp\Build\output.z8" include
-ifiction "M:\gamedev\projects\inform\bardolfs-curse\extensions\Violence.i7xp\Metadata.iFiction" include
+storyfile "M:\gamedev\projects\inform\inform-extensions\Violence.i7xp\Build\output.z8" include
+ifiction "M:\gamedev\projects\inform\inform-extensions\Violence.i7xp\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 

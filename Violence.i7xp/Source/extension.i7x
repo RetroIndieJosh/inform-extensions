@@ -32,8 +32,9 @@ Carry out arming:
 Report arming:
 	say "You wield [the noun]."
 After dropping:
-	if the player wields the noun:
-		say "You are no longer wielding [the noun]." [todo unwield it];
+	if the player is armed and the player wields the noun:
+		say "You are no longer wielding [the noun].";
+		now the player is unarmed;
 	continue the action.
 	
 Disarming is an action applying to nothing. Understand "disarm" as disarming.

@@ -18,6 +18,8 @@ Chapter 3 - Liquid Containers
 
 A liquid container is a kind of thing. Every liquid container has a liquid called the contained liquid. The contained liquid is usually water. A liquid container can be full or empty. A liquid container is usually empty.
 
+A liquid container can be bottomless.
+
 After examining a liquid container:
 	if the noun is empty:
 		say "[The noun] is empty.";
@@ -27,23 +29,28 @@ After examining a liquid container:
 
 Carry out emptying a liquid container:
 	if the noun is empty:
-		say "You turn [the noun] upside down but nothing comes out. It's already empty.";
+		say "[The actor] [turn] [the noun] upside down but nothing comes out. It's already empty." instead;
+	otherwise if the noun is bottomless:
+		say "Something about [the noun] [look] too important to empty.";
 	otherwise:
-		say "You dump [the contained liquid of the noun] from [the noun] onto the ground, where it's quickly absorbed.";
+		say "[The actor] dump [the contained liquid of the noun] from [the noun] onto the ground, where it [are] quickly absorbed.";
 		now the noun is empty.
 
 Chapter 4 - Drinking
 
 The block drinking rule is not listed in any rulebook.
 
+A liquid can be drinkable. A liquid is usually not drinkable.
+
 To drink (he drinks, they drink, he drank, it is drunk, he is drinking) is a verb.
 
 Check drinking something:
 	if the noun is not a liquid container, say "You can't drink that." instead;
 	if the noun is empty, say "[The noun] is empty. Nothing to drink in there." instead.
-		
+
 Carry out drinking something:
-	now the noun is empty.
+	if the contained liquid of the noun is drinkable, now the noun is empty;
+	otherwise say "That [don't] look too palatable." instead.
 	
 Report drinking something:
 	say "[The actor] [drink] [the contained liquid of the noun] from [the noun]."
@@ -111,7 +118,7 @@ Example: * Liquids - Manipulating and combining liquids in containers
 	
 	Include Liquids and Containers by Joshua McLean.
 	
-	oil is a liquid. soda is a liquid. milk is a liquid. oiled water is a liquid.
+	oil is a liquid. soda is a drinkable liquid. milk is a liquid. oiled water is a liquid.
 	
 	Table of Liquid Combinations (continued)
 	liquid 1	liquid 2	result
@@ -121,7 +128,7 @@ Example: * Liquids - Manipulating and combining liquids in containers
 	
 	A liquid container called the soda can is here. The contained liquid is soda. The can is full.
 	
-	A liquid container called the oil vial is here. The contained liquid is oil. The vial is full.
+	A bottomless liquid container called the oil vial is here. The contained liquid is oil. The vial is full.
 	
 	A liquid container called the water bottle is here. The contained liquid is water. The bottle is full.
 	
