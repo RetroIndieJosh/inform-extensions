@@ -24,4 +24,7 @@ A liquid container called the milk jug is here. The contained liquid is milk. Th
 
 After dipping your hand into the pot, say "Your hand is now wet and oily."
 
-Test me with "drink soda / dump milk / dip hand in bottle / dip hand in oil / pour water in pot / pour oil in pot / x pot / dip hand in pot".
+After pouring the pot into your hand:
+	If the contained liquid of the pot is oiled water, say "Your hand is even more wet and oily now."
+
+Test me with "drink soda / dump milk / dip hand in bottle / dip hand in oil / pour water in pot / pour oil in pot / x pot / dip hand in pot / pour pot on hand".

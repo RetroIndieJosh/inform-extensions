@@ -1,266 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-35">
+<Skein rootNode="node-202">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-64"/>
-  <item nodeId="node-35">
+  <activeNode nodeId="node-232"/>
+  <item nodeId="node-202">
     <command xml:space="preserve">Liquids</command>
     <result xml:space="preserve">Liquids&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201117 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;You can see the glass, the pot, the soda can, the oil vial, the water bottle and the milk jug here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Liquids&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201116 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;You can see the glass, the pot, the soda can, the oil vial, the water bottle and the milk jug here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-36"/>
-      <child nodeId="node-48"/>
-      <child nodeId="node-53"/>
+      <child nodeId="node-203"/>
+      <child nodeId="node-215"/>
+      <child nodeId="node-220"/>
     </children>
   </item>
-  <item nodeId="node-36">
+  <item nodeId="node-203">
     <command xml:space="preserve">get calculus</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-37"/>
+      <child nodeId="node-204"/>
     </children>
   </item>
-  <item nodeId="node-37">
+  <item nodeId="node-204">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-38"/>
+      <child nodeId="node-205"/>
     </children>
   </item>
-  <item nodeId="node-38">
+  <item nodeId="node-205">
     <command xml:space="preserve">read book</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-39"/>
+      <child nodeId="node-206"/>
     </children>
   </item>
-  <item nodeId="node-39">
+  <item nodeId="node-206">
     <command xml:space="preserve">read page 2</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-40"/>
+      <child nodeId="node-207"/>
     </children>
   </item>
-  <item nodeId="node-40">
+  <item nodeId="node-207">
     <command xml:space="preserve">drop book</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-41"/>
+      <child nodeId="node-208"/>
     </children>
   </item>
-  <item nodeId="node-41">
+  <item nodeId="node-208">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-42"/>
+      <child nodeId="node-209"/>
     </children>
   </item>
-  <item nodeId="node-42">
+  <item nodeId="node-209">
     <command xml:space="preserve">read page 5</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-43"/>
+      <child nodeId="node-210"/>
     </children>
   </item>
-  <item nodeId="node-43">
+  <item nodeId="node-210">
     <command xml:space="preserve">read page 1</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-44"/>
+      <child nodeId="node-211"/>
     </children>
   </item>
-  <item nodeId="node-44">
+  <item nodeId="node-211">
     <command xml:space="preserve">get book</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-45"/>
+      <child nodeId="node-212"/>
     </children>
   </item>
-  <item nodeId="node-45">
+  <item nodeId="node-212">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-46"/>
+      <child nodeId="node-213"/>
     </children>
   </item>
-  <item nodeId="node-46">
+  <item nodeId="node-213">
     <command xml:space="preserve">read page 4</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-47"/>
+      <child nodeId="node-214"/>
     </children>
   </item>
-  <item nodeId="node-47">
+  <item nodeId="node-214">
     <command xml:space="preserve">read calculus page 4</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-48">
+  <item nodeId="node-215">
     <command xml:space="preserve">get water</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-49"/>
+      <child nodeId="node-216"/>
     </children>
   </item>
-  <item nodeId="node-49">
+  <item nodeId="node-216">
     <command xml:space="preserve">drink water</command>
     <result xml:space="preserve">You drink water from the water bottle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-50"/>
+      <child nodeId="node-217"/>
     </children>
   </item>
-  <item nodeId="node-50">
+  <item nodeId="node-217">
     <command xml:space="preserve">get oil</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-51"/>
+      <child nodeId="node-218"/>
     </children>
   </item>
-  <item nodeId="node-51">
+  <item nodeId="node-218">
     <command xml:space="preserve">dump oil</command>
     <result xml:space="preserve">You dump Oil from the oil vial onto the ground, where it's quickly absorbed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-52"/>
+      <child nodeId="node-219"/>
     </children>
   </item>
-  <item nodeId="node-52">
+  <item nodeId="node-219">
     <command xml:space="preserve">drink oil</command>
     <result xml:space="preserve">The oil vial is empty. Nothing to drink in there.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-53">
+  <item nodeId="node-220">
     <command xml:space="preserve">drink soda</command>
     <result xml:space="preserve">You drink soda from the soda can.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You drink soda from the soda can.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-54"/>
+      <child nodeId="node-221"/>
     </children>
   </item>
-  <item nodeId="node-54">
+  <item nodeId="node-221">
     <command xml:space="preserve">dump milk</command>
     <result xml:space="preserve">You dump milk from the milk jug onto the ground, where it is quickly absorbed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You dump milk from the milk jug onto the ground, where it is quickly absorbed.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-55"/>
-      <child nodeId="node-59"/>
+      <child nodeId="node-222"/>
+      <child nodeId="node-226"/>
     </children>
   </item>
-  <item nodeId="node-55">
+  <item nodeId="node-222">
     <command xml:space="preserve">pour water in pot</command>
     <result xml:space="preserve">You pour water from the water bottle into the pot which now contains water.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You pour water from the water bottle into the pot which now contains water.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-56"/>
+      <child nodeId="node-223"/>
     </children>
   </item>
-  <item nodeId="node-56">
+  <item nodeId="node-223">
     <command xml:space="preserve">pour oil in pot</command>
     <result xml:space="preserve">You pour oil from the oil vial into the pot which now contains oiled water.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You pour oil from the oil vial into the pot which now contains oiled water.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-57"/>
+      <child nodeId="node-224"/>
     </children>
   </item>
-  <item nodeId="node-57">
+  <item nodeId="node-224">
     <command xml:space="preserve">x pot</command>
     <result xml:space="preserve">You see nothing special about the pot.&#x000A;&#x000A;Inside the pot is oiled water.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You see nothing special about the pot.&#x000A;&#x000A;Inside the pot is oiled water.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-58"/>
+      <child nodeId="node-225"/>
     </children>
   </item>
-  <item nodeId="node-58">
+  <item nodeId="node-225">
     <command xml:space="preserve">dip hand in pot</command>
     <result xml:space="preserve">Your hand is now wet and oily.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Your hand is now wet and oily.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-59">
+  <item nodeId="node-226">
     <command xml:space="preserve">dip hand in bottle</command>
-    <result xml:space="preserve">your hand won't fit in the water bottle.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You dip your hand into water in the water bottle.&#x000A;&#x000A;your hand won't fit in the water bottle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">your hand won't fit in the water bottle.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
-      <child nodeId="node-60"/>
+      <child nodeId="node-227"/>
     </children>
   </item>
-  <item nodeId="node-60">
+  <item nodeId="node-227">
     <command xml:space="preserve">dip hand in oil</command>
-    <result xml:space="preserve">your hand won't fit in the oil vial.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You dip your hand into oil in the oil vial.&#x000A;&#x000A;your hand won't fit in the oil vial.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">your hand won't fit in the oil vial.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
-      <child nodeId="node-61"/>
+      <child nodeId="node-228"/>
     </children>
   </item>
-  <item nodeId="node-61">
+  <item nodeId="node-228">
     <command xml:space="preserve">pour water in pot</command>
-    <result xml:space="preserve">You pour water from the water bottle into the pot which now contains water.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You pour water from the water bottle into the pot which now contains water.&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">You pour some water from the water bottle into the pot which now contains some water.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You pour some water from the water bottle into the pot which now contains some water.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-62"/>
+      <child nodeId="node-229"/>
     </children>
   </item>
-  <item nodeId="node-62">
+  <item nodeId="node-229">
     <command xml:space="preserve">pour oil in pot</command>
-    <result xml:space="preserve">You pour oil from the oil vial into the pot which now contains oiled water.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You pour oil from the oil vial into the pot which now contains oiled water.&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">You pour some oil from the oil vial into the pot which now contains some oiled water.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You pour some oil from the oil vial into the pot which now contains some oiled water.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-63"/>
+      <child nodeId="node-230"/>
     </children>
   </item>
-  <item nodeId="node-63">
+  <item nodeId="node-230">
     <command xml:space="preserve">x pot</command>
     <result xml:space="preserve">You see nothing special about the pot.&#x000A;&#x000A;Inside the pot is oiled water.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You see nothing special about the pot.&#x000A;&#x000A;Inside the pot is oiled water.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-64"/>
+      <child nodeId="node-231"/>
     </children>
   </item>
-  <item nodeId="node-64">
+  <item nodeId="node-231">
     <command xml:space="preserve">dip hand in pot</command>
-    <result xml:space="preserve">Your hand is now wet and oily.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Your hand is now wet and oily.&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">You dip your hand into oiled water in the pot.&#x000A;&#x000A;Your hand is now wet and oily.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You dip your hand into oiled water in the pot.&#x000A;&#x000A;Your hand is now wet and oily.&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">pour pot on hand</command>
+    <result xml:space="preserve">You pour oiled water from the pot onto your hand.&#x000A;&#x000A;Your hand is even more wet and oily now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You pour oiled water from the pot onto your hand.&#x000A;&#x000A;Your hand is even more wet and oily now.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
   </item>
 </Skein>

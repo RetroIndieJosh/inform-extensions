@@ -65,10 +65,11 @@ water		water		water
 
 To pour (he pours, they pour, he poured, it is poured, he is pouring) is a verb.
 
-Pouring it into is an action applying to two visible things and requiring light. Understand "pour [something] into [something]" and "pour [something] in [something]" and "add [something] to [something]" and "combine [something] with [something]" as pouring it into.
+Pouring it into is an action applying to two visible things and requiring light. Understand "pour [something] into [something]" and "pour [something] in [something]" and "pour [something] onto [something]" and "pour [something] on [something]" and "add [something] to [something]" and "combine [something] with [something]" as pouring it into.
 Check pouring it into:
-	if the noun is not a liquid container and the second noun is not a liquid container, say "That's not something you can pour." instead.
-Carry out pouring it into:
+	if the noun is not a liquid container, say "That's not something you can pour." instead;
+	if the noun is empty, say "[The noun] [are] empty, so pouring would do nothing." instead.
+Carry out pouring it into when the second noun is a liquid container:
 	if the second noun is empty:
 		now the contained liquid of the second noun is the contained liquid of the noun;
 	otherwise if the contained liquid of the noun is not the contained liquid of the second noun:
@@ -90,7 +91,10 @@ Carry out pouring it into:
 			stop the action;
 	if the noun is not bottomless, now the noun is empty;
 	now the second noun is full;
-	say "[The actor] [pour] [the contained liquid of the noun] from [the noun] into [the second noun] which now contains [the contained liquid of the second noun]."
+	say "[The actor] [pour] some [the contained liquid of the noun] from [the noun] into [the second noun] which now contains some [the contained liquid of the second noun]."
+Carry out pouring it into when the second noun is not a liquid container:
+	if the noun is not bottomless, now the noun is empty;
+	say "[The actor] [pour] [the contained liquid of the noun] from [the noun] onto [the second noun]."
 	
 Chapter 6 - Dipping
 
@@ -100,7 +104,7 @@ To dip (he dips, they dip, he dipped, it is dipped, he is dipping) is a verb.
 Dipping it into is an action applying to two things. Understand "dip [something] in [something]" and "dip [something] into [something]" as dipping it into.
 Check dipping it into:
 	if the second noun is not a liquid container, say "That [make] any sense with [the second noun]." instead.
-Report dipping it into:
+Carry out dipping it into:
 	say "[The actor] [dip] [the noun] into [the contained liquid of the second noun] in [the second noun]."
 	
 Section 1 - Bulk Limiting (for use with Bulk Limiter by Eric Eve)
@@ -160,4 +164,7 @@ Example: * Liquids - Manipulating and combining liquids in containers
 	
 	After dipping your hand into the pot, say "Your hand is now wet and oily."
 
-	Test me with "drink soda / dump milk / dip hand in bottle / dip hand in oil / pour water in pot / pour oil in pot / x pot / dip hand in pot".
+	After pouring the pot into your hand:
+		If the contained liquid of the pot is oiled water, say "Your hand is even more wet and oily now."
+
+	Test me with "drink soda / dump milk / dip hand in bottle / dip hand in oil / pour water in pot / pour oil in pot / x pot / dip hand in pot / pour pot on hand".
