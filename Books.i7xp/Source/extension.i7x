@@ -22,7 +22,7 @@ To decide what number is the number of pages in (b - book):
 
 To display page (n - number) in (b - book):
 	let str be entry n from the pages of b;
-	say "Page [n] reads: '[str]'[paragraph break]".
+	say "Page [n] reads:[paragraph break][str]".
 
 Understand the command "read" as something new.
 The empty book description is text that varies. When play begins, if the empty book description is "", now the empty book description is "It's blank."

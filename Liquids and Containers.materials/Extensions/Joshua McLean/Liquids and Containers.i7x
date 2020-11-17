@@ -16,7 +16,9 @@ A liquid is a kind of thing. water is a liquid.
 
 Chapter 3 - Liquid Containers
 
-A liquid container is a kind of thing. Every liquid container has a liquid called the contained liquid. The contained liquid is usually water. A liquid container can be full or empty. A liquid container is usually empty.
+A liquid container is a kind of thing. 
+Every liquid container has a liquid called the contained liquid. The contained liquid is usually water. 
+A liquid container can be full or empty. A liquid container is usually empty.
 
 A liquid container can be bottomless.
 
@@ -89,6 +91,24 @@ Carry out pouring it into:
 	if the noun is not bottomless, now the noun is empty;
 	now the second noun is full;
 	say "[The actor] [pour] [the contained liquid of the noun] from [the noun] into [the second noun] which now contains [the contained liquid of the second noun]."
+	
+Chapter 6 - Dipping
+
+[TODO move to general]
+To make (he makes, they make, he made, it is made, he is making) is a verb.
+To dip (he dips, they dip, he dipped, it is dipped, he is dipping) is a verb.
+Dipping it into is an action applying to two things. Understand "dip [something] in [something]" and "dip [something] into [something]" as dipping it into.
+Check dipping it into:
+	if the second noun is not a liquid container, say "That [make] any sense with [the second noun]." instead.
+Report dipping it into:
+	say "[The actor] [dip] [the noun] into [the contained liquid of the second noun] in [the second noun]."
+	
+Section 1 - Bulk Limiting (for use with Bulk Limiter by Eric Eve)
+
+A liquid container has a number called the dipping bulk limit. The dipping bulk limit is usually one.
+
+A check dipping it into rule:
+	if the bulk of the noun is greater than the dipping bulk limit of the second noun, say "[The noun] [won't] fit in [the second noun]." instead.
 
 Liquids and Containers ends here.
 
@@ -116,6 +136,8 @@ Example: * Liquids - Manipulating and combining liquids in containers
 
 	*: "Liquids"
 	
+	Include Bulk Limiter by Eric Eve.
+	
 	Include Liquids and Containers by Joshua McLean.
 	
 	oil is a liquid. soda is a drinkable liquid. milk is a liquid. oiled water is a liquid.
@@ -124,14 +146,18 @@ Example: * Liquids - Manipulating and combining liquids in containers
 	liquid 1	liquid 2	result
 	oil		water		oiled water
 	
+	Your hand is part of the player.
+	
 	The Kitchen is a room. A liquid container called the glass is here. A liquid container called the pot is here.
 	
 	A liquid container called the soda can is here. The contained liquid is soda. The can is full.
 	
-	A bottomless liquid container called the oil vial is here. The contained liquid is oil. The vial is full.
+	A bottomless liquid container called the oil vial is here. The contained liquid is oil. The vial is full. The dipping bulk limit of the vial is 0.
 	
-	A liquid container called the water bottle is here. The contained liquid is water. The bottle is full.
+	A liquid container called the water bottle is here. The contained liquid is water. The bottle is full. The dipping bulk limit of the bottle is 0.
 	
 	A liquid container called the milk jug is here. The contained liquid is milk. The jug is full.
+	
+	After dipping your hand into the pot, say "Your hand is now wet and oily."
 
-	Test me with "drink soda / dump milk / pour water in pot / pour oil in pot / x pot".
+	Test me with "drink soda / dump milk / dip hand in bottle / dip hand in oil / pour water in pot / pour oil in pot / x pot / dip hand in pot".
