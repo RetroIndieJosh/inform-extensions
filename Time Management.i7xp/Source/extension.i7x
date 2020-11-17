@@ -4,14 +4,17 @@ Include Variable Time Control by Eric Eve.
 
 Chapter - Time
 
+The sunrise time is a time that varies. The sunrise time is usually 6 AM.
+The sunset time is a time that varies. The sunset time is usually 8 PM.
+
 When play begins, now seconds_per_turn is 30.
 After waiting:
-	take 150 secs; 
+	take 30 secs; 
 	continue the action.
 
 To decide whether it is daytime:
-	if the time of day is before 8 PM:
-		if the time of day is after 6 AM, yes;
+	if the time of day is before the sunset time:
+		if the time of day is after the sunrise time, yes;
 	no.
 
 Section - The Magic Word
