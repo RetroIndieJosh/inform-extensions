@@ -12,15 +12,15 @@ Carry out emptying something when the noun is not a liquid container:
 
 Chapter 2 - Liquids
 
-A liquid is a kind of thing. water is a liquid.
+A liquid is a kind of thing. Understand "liquid" as a liquid.
+water is a liquid.
 
 Chapter 3 - Liquid Containers
 
 A liquid container is a kind of thing. 
 Every liquid container has a liquid called the contained liquid. The contained liquid is usually water. 
 A liquid container can be full or empty. A liquid container is usually empty.
-
-A liquid container can be bottomless.
+A liquid container can be bottomless. A liquid container is usually not bottomless.
 
 After examining a liquid container:
 	if the noun is empty:
@@ -67,7 +67,8 @@ To pour (he pours, they pour, he poured, it is poured, he is pouring) is a verb.
 
 Pouring it into is an action applying to two visible things and requiring light. Understand "pour [something] into [something]" and "pour [something] in [something]" and "pour [something] onto [something]" and "pour [something] on [something]" and "add [something] to [something]" and "combine [something] with [something]" as pouring it into.
 Check pouring it into:
-	if the noun is not a liquid container, say "That's not something you can pour." instead;
+	if the noun is not a liquid container, say "[The actor] [can] only pour from liquid containers." instead;
+	if the noun is scenery or the noun is fixed in place or the noun is a backdrop, say "[The actor] [can't], as [the noun] is fixed in place.";
 	if the noun is empty, say "[The noun] [are] empty, so pouring would do nothing." instead.
 Carry out pouring it into when the second noun is a liquid container:
 	if the second noun is empty:
@@ -100,16 +101,26 @@ Chapter 6 - Dipping
 
 [TODO move to general]
 To make (he makes, they make, he made, it is made, he is making) is a verb.
+
 To dip (he dips, they dip, he dipped, it is dipped, he is dipping) is a verb.
 Dipping it into is an action applying to two things. Understand "dip [something] in [something]" and "dip [something] into [something]" as dipping it into.
 Check dipping it into:
-	if the second noun is not a liquid container, say "That [make] any sense with [the second noun]." instead.
+	if the second noun is not a liquid container, say "That [make] no sense with [the second noun]." instead;
+	if the noun is a liquid container:
+		if the second noun is empty, say "That would accomplish nothing, as [the noun] [are] empty." instead;
+		if the noun is full, say "[The actor] [should] empty [the noun] first." instead.
 Carry out dipping it into:
-	say "[The actor] [dip] [the noun] into [the contained liquid of the second noun] in [the second noun]."
+	let V be "coating";
+	if the noun is a liquid container:
+		now the contained liquid of the noun is the contained liquid of the second noun;
+		now the noun is full;
+		now V is "filling";
+	say "[The actor] [dip] [the noun] into [the second noun], [V] it with [the contained liquid of the second noun]."
+
 	
 Section 1 - Bulk Limiting (for use with Bulk Limiter by Eric Eve)
 
-A liquid container has a number called the dipping bulk limit. The dipping bulk limit is usually one.
+A liquid container has a number called the dipping bulk limit. The dipping bulk limit is usually 5.
 
 A check dipping it into rule:
 	if the bulk of the noun is greater than the dipping bulk limit of the second noun, say "[The noun] [won't] fit in [the second noun]." instead.
@@ -127,7 +138,7 @@ To add one row to the Table of Liquid Combinations:
 	now liquid 1 entry is first liquid name;
 	now liquid 2 entry is second liquid name;
 	now result entry is resulting liquid name.
-	
+
 To extend the Table of Liquid Combinations:
 	
 	Table of Liquid Combinations (continued)
