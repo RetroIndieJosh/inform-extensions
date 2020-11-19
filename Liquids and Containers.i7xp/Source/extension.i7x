@@ -63,6 +63,8 @@ Table of Liquid Combinations
 liquid 1		liquid 2		result
 water		water		water
 
+Chapter 6 - Pouring
+
 To pour (he pours, they pour, he poured, it is poured, he is pouring) is a verb.
 
 Pouring it into is an action applying to two visible things and requiring light. Understand "pour [something] into [something]" and "pour [something] in [something]" and "pour [something] onto [something]" and "pour [something] on [something]" and "add [something] to [something]" and "combine [something] with [something]" as pouring it into.
@@ -97,7 +99,7 @@ Carry out pouring it into when the second noun is not a liquid container:
 	if the noun is not bottomless, now the noun is empty;
 	say "[The actor] [pour] [the contained liquid of the noun] from [the noun] onto [the second noun]."
 	
-Chapter 6 - Dipping
+Chapter 7 - Dipping
 
 [TODO move to general]
 To make (he makes, they make, he made, it is made, he is making) is a verb.
@@ -108,7 +110,7 @@ Check dipping it into:
 	if the second noun is not a liquid container, say "That [make] no sense with [the second noun]." instead;
 	if the noun is a liquid container:
 		if the second noun is empty, say "That would accomplish nothing, as [the noun] [are] empty." instead;
-		if the noun is full, say "[The actor] [should] empty [the noun] first." instead.
+		if the noun is full, say "Try pouring [the noun] into [the second noun] instead." instead.
 Carry out dipping it into:
 	let V be "coating";
 	if the noun is a liquid container:
