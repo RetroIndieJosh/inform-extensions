@@ -2,7 +2,7 @@ General by Joshua McLean begins here.
 
 Use American dialect, scoring, and the serial comma.
 
-Section 2 - Testing (Debug) - Not for release
+Chapter 1 - Testing (Debug) - Not for release
 
 An object can be without description.
 
@@ -16,28 +16,28 @@ When play begins (this is the check for missing descriptions when play begins ru
 		if description of the place is "" and the place is not without description: 
 			say "- room '[place]' has no description[br]"
 			
-Section 3 - Subjects Have No Description (for use with Conversation Framework by Eric Eve)
+Section 1 - Subjects Have No Description (for use with Conversation Framework by Eric Eve)
 
 A subject is usually without description.
 
-Section 4 - Testing (Release) - For release only
+Chapter 2 - Testing (Release) - For release only
 
 After reading a command (this is the ignore beta-comments rule): 
 	if the player's command matches the regular expression "^\p": 
 		say "(Noted.)"; 
 		reject the player's command. 
 
-Section 5 - Default Responses
+Chapter 3 - Default Responses
 
 A thing can be examined. A thing is usually not examined. After examining something (called the target): now the target is examined.
 
 Instead of taking some scenery, say "That's not the sort of thing you can carry around."
 
-Section 6 - Bulk (for use with Bulk Limiter by Eric Eve)
+Chapter 4 - Bulk (for use with Bulk Limiter by Eric Eve)
 
 The bulk of a thing is usually 5. The bulk capacity of the player is 20.
 
-Section 7 - Vulgarity
+Chapter 5 - Vulgarity
 
 Being vulgar is an action applying to nothing. Understand "shit", "fuck", "damn", "ass", "motherfuck", "motherfucker", "bullshit", "dammit", "damnit", "goddamn", and "bitch" as being vulgar.
 Report being vulgar:
@@ -46,7 +46,7 @@ Being vulgar to is an action applying to one topic. Understand "shit [text]", "f
 Carry out being vulgar to:
 	try being vulgar.
 
-Section 8 - Text Handling
+Chapter 6 - Text Handling
 
 To say i -- beginning say_i -- running on: (- style underline; -). 
 To say /i -- ending say_i -- running on: (- style roman; -). 
@@ -82,20 +82,20 @@ To say replace (target - some text) line (n - a number) with (str - some text):
 	let nplus be n + 1;
 	say "[target lines 1 to nminus][str][br][target lines nplus to number of lines in target]".
 
-Section 9 - Saving
+Chapter 7 - Saving
 
 [count saves]
 The number of saves is a number which varies.
 Check saving the game: increment the number of saves; continue the action.
 
-Section 10 - Pulling
+Chapter 8 - Pulling
 
 The report pulling rule is not listed in the report pulling rulebook.
 A thing can be pullable. A thing is usually not pullable. Definition: a thing is unpullable if it is not pullable.
 Check pulling:
 	if the noun is not pullable, say "You can't pull that." instead.
-		
-Section 11 - Default Scenery
+
+Chapter 9 - Default Scenery
 
 A door is usually scenery.
 

@@ -7,7 +7,7 @@ Chapter - Time
 The sunrise time is a time that varies. The sunrise time is usually 6 AM.
 The sunset time is a time that varies. The sunset time is usually 8 PM.
 
-When play begins, now seconds_per_turn is 30.
+When play begins, now seconds_per_turn is 60.
 After waiting:
 	take 30 secs; 
 	continue the action.

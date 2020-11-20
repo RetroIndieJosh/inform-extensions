@@ -48,12 +48,20 @@ After examining an armed person:
 	say "[regarding the noun][They] [are] wielding [the wielded weapon of the noun].";
 	continue the action.
 
-Section 2 - - Attacking
+Section 2 - Attacking
 
 The block attacking rule is not listed in the check attacking rulebook.
 Understand "kick" as attacking.
 Instead of attacking the player, say "Surely there is still hope!"
 Report attacking: say "That's not very nice."
+
+Section 3 - Death
+
+To kill (target - person) with corpse (corpse - supporter):
+	now corpse is in location of target;
+	now target is nowhere;
+	repeat with T running through things in target:
+		now T is on corpse.
 
 Violence ends here.
 
