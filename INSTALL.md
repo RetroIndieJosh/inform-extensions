@@ -3,9 +3,9 @@
 **Linux**: If your inform directory is `~/Inform` (the default) you can use the
 included `linux-install.sh` to install or update all extensions.
 
-(forthcoming) ~~**Windows**: If your inform directory is `%UserProfile%/My Documents/Inform` 
+**Windows**: If your inform directory is `%UserProfile%/My Documents/Inform`
 (the default) you can use the included `windows-install.bat` to install or
-update all extensions.~~
+update all extensions.
 
 **Manual/Custom Installation**: Copy the extension's directory from `Extensions`
 to your `{inform-directory}/Extensions` directory.
