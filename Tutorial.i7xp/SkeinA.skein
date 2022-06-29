@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-37">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-62"/>
+  <item nodeId="node-37">
+    <command xml:space="preserve">Starting With the Tutorial</command>
+    <result xml:space="preserve">- thing "cabinet" has no description&#x000A;- thing "dongle" has no description&#x000A;- thing "crowbar" has no description&#x000A;- thing "office drawer" has no description&#x000A;- thing "office key (Well, it's no dongle, but maybe this key will help?)" has no description&#x000A;- room "Beginning" has no description&#x000A;&#x000A;Starting With the Tutorial&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Beginning&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Starting With the Tutorial&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Beginning&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">tutorial</command>
+    <result xml:space="preserve">(Welcome to the tutorial! Hints will appear in parentheses like this. Commands will be in ALL CAPS. You can enter commands by typing them in and pressing the enter/return key. Leave the tutorial at any time with the GAME command.)&#x000A;Well, now you've done it. It's late Friday night, and the building is all locked up. You left the flash drive with your prototype in the office. You need it for your presentation tomorrow!&#x000A;&#x000A;Parking Lot&#x000A;You're in a large parking lot behind the office building, with grass surrounding the empty blacktop island in all directions. To the north, a large tree blocks any clear view of your office window.&#x000A;&#x000A;(You can move in any cardinal direction: NORTH SOUTH EAST WEST NORTHEAST NORTHWEST SOUTHEAST SOUTHWEST. You may also abbreviate these commands as N S E W NE NW SE SW. Try moving toward the tree.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(Welcome to the tutorial! Hints will appear in parentheses like this. Commands will be in ALL CAPS. You can enter commands by typing them in and pressing the enter/return key. Leave the tutorial at any time with the GAME command.)&#x000A;Well, now you've done it. It's late Friday night, and the building is all locked up. You left the flash drive with your prototype in the office. You need it for your presentation tomorrow!&#x000A;&#x000A;Parking Lot&#x000A;You're in a large parking lot behind the office building, with grass surrounding the empty blacktop island in all directions. To the north, a large tree blocks any clear view of your office window.&#x000A;&#x000A;(You can move in any cardinal direction: NORTH SOUTH EAST WEST NORTHEAST NORTHWEST SOUTHEAST SOUTHWEST. You may also abbreviate these commands as N S E W NE NW SE SW. Try moving toward the tree.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bottom of the Tree&#x000A;A tree rises high into the sky here. Even craning your neck, you can't see the top. The trunk almost presses against the building and it looks like a branch could get you inside through the window.&#x000A;&#x000A;(You can also move UP or DOWN by typing those commands, abbreviated U or D. Try going UP now to climb the tree.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Bottom of the Tree&#x000A;A tree rises high into the sky here. Even craning your neck, you can't see the top. The trunk almost presses against the building and it looks like a branch could get you inside through the window.&#x000A;&#x000A;(You can also move UP or DOWN by typing those commands, abbreviated U or D. Try going UP now to climb the tree.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tree Branch&#x000A;You dangle from a high branch, surrounded by green leaves. The branch extends close enough to the building to reach a window.&#x000A;&#x000A;A single apple dangles just within arm's reach. (You can collect items during your adventure. Try GET APPLE now. You can also TAKE APPLE.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Tree Branch&#x000A;You dangle from a high branch, surrounded by green leaves. The branch extends close enough to the building to reach a window.&#x000A;&#x000A;A single apple dangles just within arm's reach. (You can collect items during your adventure. Try GET APPLE now. You can also TAKE APPLE.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">get apple</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;(Now that you have the apple, try INVENTORY or I for short to view your inventory.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;(Now that you have the apple, try INVENTORY or I for short to view your inventory.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an apple&#x000A;&#x000A;(Now, try to OPEN WINDOW to get into the office.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are carrying:&#x000A;  an apple&#x000A;&#x000A;(Now, try to OPEN WINDOW to get into the office.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">(first unlocking the office window)&#x000A;The window is locked from the inside. You'll have to find another way to open it.&#x000A;&#x000A;(Well, can't go that way. Let's try going back DOWN to see if there's anything new in the open field.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first unlocking the office window)&#x000A;The window is locked from the inside. You'll have to find another way to open it.&#x000A;&#x000A;(Well, can't go that way. Let's try going back DOWN to see if there's anything new in the open field.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't get a good grip while carrying the apple, and it's too big for your pockets.&#x000A;&#x000A;(This is a pretty narrow branch, so if you DROP APPLE it will probably tumble down to the ground. In a text adventure, there is often "real world" modeling of this kind - what you expect to happen will usually happen if the game allows it.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't get a good grip while carrying the apple, and it's too big for your pockets.&#x000A;&#x000A;(This is a pretty narrow branch, so if you DROP APPLE it will probably tumble down to the ground. In a text adventure, there is often "real world" modeling of this kind - what you expect to happen will usually happen if the game allows it.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">drop apple</command>
+    <result xml:space="preserve">You drop the apple to the grass below.&#x000A;&#x000A;(Go DOWN to return to the ground.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You drop the apple to the grass below.&#x000A;&#x000A;(Go DOWN to return to the ground.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Bottom of the Tree&#x000A;A tree rises high into the sky here. Even craning your neck, you can't see the top. The trunk almost presses against the building and it looks like a branch could get you inside through the window.&#x000A;&#x000A;An old gentleman with tousled gray hair is here. (Look, a person! Try saying hello. You can TALK TO MAN or SAY HELLO TO MAN or even simply HELLO MAN.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Bottom of the Tree&#x000A;A tree rises high into the sky here. Even craning your neck, you can't see the top. The trunk almost presses against the building and it looks like a branch could get you inside through the window.&#x000A;&#x000A;An old gentleman with tousled gray hair is here. (Look, a person! Try saying hello. You can TALK TO MAN or SAY HELLO TO MAN or even simply HELLO MAN.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">hello man</command>
+    <result xml:space="preserve">"Good evening." The man mimes a tip of the hat, despite not wearing one.&#x000A;&#x000A;(You are now in a conversation with the man. Try to ASK ABOUT something. Maybe his name?)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"Good evening." The man mimes a tip of the hat, despite not wearing one.&#x000A;&#x000A;(You are now in a conversation with the man. Try to ASK ABOUT something. Maybe his name?)&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-48"/>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">ask about name</command>
+    <result xml:space="preserve">"My name is John. Nice to meet you." You shake hands and introduce yourself.&#x000A;&#x000A;(Good work! Now you know who the man is. Try examining him to find out more.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"My name is John. Nice to meet you." You shake hands and introduce yourself.&#x000A;&#x000A;(Good work! Now you know who the man is. Try examining him to find out more.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">x man</command>
+    <result xml:space="preserve">An old gentleman.&#x000A;&#x000A;(He took the apple! Well, that's okay. You didn't need it anyway. But that crowbar might be helpful for getting the window open. Maybe ask him for it?)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">An old gentleman.&#x000A;&#x000A;(He took the apple! Well, that's okay. You didn't need it anyway. But that crowbar might be helpful for getting the window open. Maybe ask him for it?)&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">ask man for crowbar</command>
+    <result xml:space="preserve">He looks genuinely concerned. "What do you need that for?"&#x000A;&#x000A;(He's not being very cooperative. What to do next? Try to PONDER and maybe your in-game character will have an idea.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">He looks genuinely concerned. "What do you need that for?"&#x000A;&#x000A;(He's not being very cooperative. What to do next? Try to PONDER and maybe your in-game character will have an idea.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">ponder</command>
+    <result xml:space="preserve">Maybe John will understand the situation if you tell him about the office window. (You can TELL a person ABOUT a topic or thing to inform characters about the world or ASK a person ABOUT a topic or thing to find out what they know.)&#x000A;&#x000A;(1) the apple - Tree Branch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Maybe John will understand the situation if you tell him about the office window. (You can TELL a person ABOUT a topic or thing to inform characters about the world or ASK a person ABOUT a topic or thing to find out what they know.)&#x000A;&#x000A;(1) the apple - Tree Branch&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">tell him about window</command>
+    <result xml:space="preserve">"Oh, well in that case, here you go." He hands you the crowbar.&#x000A;&#x000A;(Excellent! Since getting the crowbar was an important task, notice your score has gone up by a point. You should SAVE so you don't lose your progress. Notice that the gmae will also inform you when your score increases, as seen below.)&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"Oh, well in that case, here you go." He hands you the crowbar.&#x000A;&#x000A;(Excellent! Since getting the crowbar was an important task, notice your score has gone up by a point. You should SAVE so you don't lose your progress. Notice that the gmae will also inform you when your score increases, as seen below.)&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tree Branch&#x000A;You dangle from a high branch, surrounded by green leaves. The branch extends close enough to the building to reach a window.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Tree Branch&#x000A;You dangle from a high branch, surrounded by green leaves. The branch extends close enough to the building to reach a window.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">open window with crowbar</command>
+    <result xml:space="preserve">You pry the crowbar into the side of the window and push, breaking it open. That'll be difficult to explain when you come back.&#x000A;&#x000A;(Excellent! Now you can get into the office to the north.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You pry the crowbar into the side of the window and push, breaking it open. That'll be difficult to explain when you come back.&#x000A;&#x000A;(Excellent! Now you can get into the office to the north.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Office&#x000A;Your office is tidy and organized, as you like it, with a desk against the east wall. A tall cabinet stands opposite it. The door to the north leads into the main hall, and a window to the south is open to the outside.&#x000A;&#x000A;(Take a moment to look around the office. Where did you leave that dongle?)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Office&#x000A;Your office is tidy and organized, as you like it, with a desk against the east wall. A tall cabinet stands opposite it. The door to the north leads into the main hall, and a window to the south is open to the outside.&#x000A;&#x000A;(Take a moment to look around the office. Where did you leave that dongle?)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">You open the office drawer, revealing an office key (Well, it's no dongle, but maybe this key will help?).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You open the office drawer, revealing an office key (Well, it's no dongle, but maybe this key will help?).&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">(You now have the key to the cabinet. You can UNLOCK CABINET WITH KEY, then OPEN CABINET. Or you can simply OPEN CABINET and the game will automatically unlock it, since you have the matching key.)&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(You now have the key to the cabinet. You can UNLOCK CABINET WITH KEY, then OPEN CABINET. Or you can simply OPEN CABINET and the game will automatically unlock it, since you have the matching key.)&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">(first unlocking the cabinet)&#x000A;(with the office key)&#x000A;You open the cabinet, revealing a dongle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first unlocking the cabinet)&#x000A;(with the office key)&#x000A;You open the cabinet, revealing a dongle.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">get dongle</command>
+    <result xml:space="preserve">You grab the dongle. Your presentation is saved! Now to get back to the car...&#x000A;&#x000A;Taken.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You grab the dongle. Your presentation is saved! Now to get back to the car...&#x000A;&#x000A;Taken.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You brace yourself against the window and leap back to the tree branch. Somehow, it doesn't break beneath your weight.&#x000A;&#x000A;Tree Branch&#x000A;You dangle from a high branch, surrounded by green leaves. The branch extends close enough to the building to reach a window.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You brace yourself against the window and leap back to the tree branch. Somehow, it doesn't break beneath your weight.&#x000A;&#x000A;Tree Branch&#x000A;You dangle from a high branch, surrounded by green leaves. The branch extends close enough to the building to reach a window.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Bottom of the Tree&#x000A;A tree rises high into the sky here. Even craning your neck, you can't see the top. The trunk almost presses against the building and it looks like a branch could get you inside through the window.&#x000A;&#x000A;John stands here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Bottom of the Tree&#x000A;A tree rises high into the sky here. Even craning your neck, you can't see the top. The trunk almost presses against the building and it looks like a branch could get you inside through the window.&#x000A;&#x000A;John stands here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You jump into your car and speed away, ready for a world-changing presentation - though you aren't looking forward to explaining the window incident on Monday morning.&#x000A;&#x000A;(Tutorial complete! You scored 3 points.)&#x000A;(Keep in mind there are many more commands you can use. Just try anything with the form ACTION OBJECT and see what happens.)&#x000A;(Use the GAME command to enter the real game, or continue exploring the tutorial world at your leisure. No, it doesn't make sense, but think of this as metagaming.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You jump into your car and speed away, ready for a world-changing presentation - though you aren't looking forward to explaining the window incident on Monday morning.&#x000A;&#x000A;(Tutorial complete! You scored 3 points.)&#x000A;(Keep in mind there are many more commands you can use. Just try anything with the form ACTION OBJECT and see what happens.)&#x000A;(Use the GAME command to enter the real game, or continue exploring the tutorial world at your leisure. No, it doesn't make sense, but think of this as metagaming.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">x man</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">x gentleman</command>
+    <result xml:space="preserve">An old gentleman.&#x000A;&#x000A;(He took the apple! Well, that's okay. You didn't need it anyway. But that crowbar might be helpful for getting the window open. Maybe ask him for it?)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

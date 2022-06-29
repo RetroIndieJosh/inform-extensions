@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-9">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-90"/>
+  <item nodeId="node-9">
+    <command xml:space="preserve">Man Woman Person</command>
+    <result xml:space="preserve">Man Woman Person&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Party Room&#x000A;You can see a balding man and a dark-haired woman here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Man Woman Person&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Party Room&#x000A;You can see a balding man and a dark-haired woman here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-11"/>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">ask bearded man about name</command>
+    <result xml:space="preserve">"My name is Pete," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"My name is Pete," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Party Room&#x000A;You can see a balding man, a dark-haired woman, a man called Pete, a pale woman, and a brown dog here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Party Room&#x000A;You can see a balding man, a dark-haired woman, a man called Pete, a pale woman, and a brown dog here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">ask dark-haired woman about name</command>
+    <result xml:space="preserve">"My name is Susan," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"My name is Susan," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Party Room&#x000A;You can see a balding man, a woman called Susan, a man called Pete, a pale woman, and a brown dog here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Party Room&#x000A;You can see a balding man, a woman called Susan, a man called Pete, a pale woman, and a brown dog here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">ask balding man about name</command>
+    <result xml:space="preserve">"My name is John," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"My name is John," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a pale woman, and a brown dog here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a pale woman, and a brown dog here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">ask pale woman about name</command>
+    <result xml:space="preserve">"My name is Darla," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"My name is Darla," it says. "Nice to meet you."&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a woman called Darla, and a brown dog here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a woman called Darla, and a brown dog here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">hi dog</command>
+    <result xml:space="preserve">You say hello to the brown dog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You say hello to the brown dog.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a woman called Darla, and a brown dog here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a woman called Darla, and a brown dog here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">ask John about dog</command>
+    <result xml:space="preserve">"I think it belongs to Darla," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"I think it belongs to Darla," he says.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">ask Darla about dog</command>
+    <result xml:space="preserve">"Oh, Rufus! He's mine." She smiles at the mutt.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"Oh, Rufus! He's mine." She smiles at the mutt.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a woman called Darla, and a dog called Rufus here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Party Room&#x000A;You can see a man called John, a woman called Susan, a man called Pete, a woman called Darla, and a dog called Rufus here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">x man</command>
+    <result xml:space="preserve">A balding man. You think his name started with J, but you're not sure.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A balding man. You think his name started with J, but you're not sure.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">x woman</command>
+    <result xml:space="preserve">A dark-haired woman. You don't know much else about her.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A dark-haired woman. You don't know much else about her.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">x person</command>
+    <result xml:space="preserve">Who do you mean, the balding man or the dark-haired woman?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Who do you mean, the balding man or the dark-haired woman?&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
