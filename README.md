@@ -1,6 +1,6 @@
 # Inform Extensions
 
-(c)2020 Joshua McLean 
+(c)2022 Joshua McLean 
 
 ## Installation
 
@@ -12,7 +12,7 @@ If you use any of this code as a basis for your own work, you must include the
 following notice and a copy of the included `LICENSE.md`.
 
     <names of extensions>
-    Copyright (C) 2020 Joshua McLean
+    Copyright (C) 2022 Joshua McLean
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

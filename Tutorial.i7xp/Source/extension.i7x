@@ -56,7 +56,7 @@ Chapter - The Tree
 
 The Bottom of the Tree is north from the parking lot. The description is "A tree rises high into the sky here. Even craning your neck, you can't see the top. The trunk almost presses against the building and it looks like a branch could get you inside through the window."
 
-A man called the old gentleman is nowhere. Understand "John" and "old man" and "gentleman" as the old gentleman. The real name is "John". "[if the old gentleman is introduced]John stands here.[otherwise]An old gentleman with tousled gray hair is here. (Look, a person! Try saying hello. You can TALK TO MAN or SAY HELLO TO MAN or even simply HELLO MAN.)[end if]". The description is "An old gentleman." He carries a thing called a crowbar.
+A man called the old gentleman is nowhere. Understand "John" and "old man" and "gentleman" as the old gentleman. The real name is "John". "[if the old gentleman is introduced]John stands here.[otherwise]An old gentleman with tousled gray hair is here. (Look, a person! Try saying hello. You can TALK TO MAN or SAY HELLO TO MAN or even simply HELLO MAN.)[end if]". The description is "An old gentleman." He carries a thing called a crowbar. The description of the crowbar is "A heavy, bent piece of metal used for prying things open. You're not sure what crows have to do with it."
 
 After looking in the bottom of the tree when the old gentleman is nowhere, tutsay "You can also move UP or DOWN by typing those commands, abbreviated U or D. Try going UP now to climb the tree."
 
@@ -133,16 +133,16 @@ Chapter - The Office
 The Office is a room. "Your office is tidy and organized, as you like it, with a desk against the east wall. A tall[if the cabinet is open], open[end if] cabinet stands opposite it. The door to the north leads into the main hall, and a window to the south is open to the outside."
 After looking in the office, tutsay "Take a moment to look around the office. Where did you leave that dongle?"
 
-A scenery closed locked container called the cabinet is here.
-The dongle is in the cabinet. Understand "flash drive" and "drive" as the dongle. "A small flash drive contianing the latest build of your most recent prototype."
+A scenery closed locked container called the cabinet is here. The description is "A tall wooden cabinet."
+The dongle is in the cabinet. Understand "flash drive" and "drive" as the dongle. The description is "A small flash drive contianing the latest build of your most recent prototype."
 Before taking the dongle when the dongle is not handled:
 	sayn "You grab the dongle. Your presentation is saved! Now to get back to the car...";
 	increase the score by 2.
 	
 [A scenery chair called the office chair is here. The description is "A rather heavy chair on wheels with a ncie cushioned seat and back - one of the perks of having your own office."]
 A scenery supporter called the office desk is here. The description is "A boring wooden desk with a single [if the office drawer is closed]closed [end if]drawer[if the office drawer is open] which lies open.[otherwise][br](You can sometimes open an object to see what's inside. Try OPEN DESK.)[end if]".
-An openable closed container called the office drawer is part of the desk. Instead of opening the office desk: try opening the office drawer.
-The office key is in the office drawer. It unlocks the cabinet. The printed name is "office key[if the office key is in the office drawer] (Well, it's no dongle, but maybe this key will help?)[end if]".
+An openable closed container called the office drawer is part of the desk. The office drawer is without description. Instead of examining the office drawer, try examining the office desk. Instead of opening the office desk: try opening the office drawer.
+The office key is in the office drawer. It unlocks the cabinet. The printed name is "office key[if the office key is in the office drawer] (Well, it's no dongle, but maybe this key will help?)[end if]". The description is "A standard metal key."
 Report taking the office key: tutsay "You now have the key to the cabinet. You can UNLOCK CABINET WITH KEY, then OPEN CABINET. Or you can simply OPEN CABINET and the game will automatically unlock it, since you have the matching key.".
 
 A closed locked door called the office door is north of the office. "A door leading out of your office into the main hallway. No reason to go there - the dongle is here somewhere."
@@ -189,6 +189,6 @@ Example: * Starting the tutorial when play begins.
 	
 	Include Tutorial by Joshua McLean.
 
-	The beginning is a room.
+	The beginning is a room. The description is "Welcome to the game! Type TUTORIAL to start the tutorial."
 	
 	Test me with "tutorial / n / u / get apple / i / open window / d / drop apple / d / hello man / ask about name / x man / ask man for crowbar / ponder / tell him about window / u / open window with crowbar / n / open desk / get key / open cabinet / get dongle / s / d / s".

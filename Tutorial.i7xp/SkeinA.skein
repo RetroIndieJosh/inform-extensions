@@ -4,9 +4,9 @@
   <activeNode nodeId="node-62"/>
   <item nodeId="node-37">
     <command xml:space="preserve">Starting With the Tutorial</command>
-    <result xml:space="preserve">- thing "cabinet" has no description&#x000A;- thing "dongle" has no description&#x000A;- thing "crowbar" has no description&#x000A;- thing "office drawer" has no description&#x000A;- thing "office key (Well, it's no dongle, but maybe this key will help?)" has no description&#x000A;- room "Beginning" has no description&#x000A;&#x000A;Starting With the Tutorial&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Beginning&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Starting With the Tutorial&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Beginning&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
+    <result xml:space="preserve">Starting With the Tutorial&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Beginning&#x000A;Welcome to the game! Type TUTORIAL to start the tutorial.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Starting With the Tutorial&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Beginning&#x000A;Welcome to the game! Type TUTORIAL to start the tutorial.&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-38"/>
     </children>
@@ -96,7 +96,7 @@
     <command xml:space="preserve">hello man</command>
     <result xml:space="preserve">"Good evening." The man mimes a tip of the hat, despite not wearing one.&#x000A;&#x000A;(You are now in a conversation with the man. Try to ASK ABOUT something. Maybe his name?)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">"Good evening." The man mimes a tip of the hat, despite not wearing one.&#x000A;&#x000A;(You are now in a conversation with the man. Try to ASK ABOUT something. Maybe his name?)&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-48"/>
       <child nodeId="node-91"/>
@@ -106,7 +106,7 @@
     <command xml:space="preserve">ask about name</command>
     <result xml:space="preserve">"My name is John. Nice to meet you." You shake hands and introduce yourself.&#x000A;&#x000A;(Good work! Now you know who the man is. Try examining him to find out more.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">"My name is John. Nice to meet you." You shake hands and introduce yourself.&#x000A;&#x000A;(Good work! Now you know who the man is. Try examining him to find out more.)&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-49"/>
     </children>
@@ -115,7 +115,7 @@
     <command xml:space="preserve">x man</command>
     <result xml:space="preserve">An old gentleman.&#x000A;&#x000A;(He took the apple! Well, that's okay. You didn't need it anyway. But that crowbar might be helpful for getting the window open. Maybe ask him for it?)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">An old gentleman.&#x000A;&#x000A;(He took the apple! Well, that's okay. You didn't need it anyway. But that crowbar might be helpful for getting the window open. Maybe ask him for it?)&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-50"/>
     </children>
@@ -124,7 +124,7 @@
     <command xml:space="preserve">ask man for crowbar</command>
     <result xml:space="preserve">He looks genuinely concerned. "What do you need that for?"&#x000A;&#x000A;(He's not being very cooperative. What to do next? Try to PONDER and maybe your in-game character will have an idea.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">He looks genuinely concerned. "What do you need that for?"&#x000A;&#x000A;(He's not being very cooperative. What to do next? Try to PONDER and maybe your in-game character will have an idea.)&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-51"/>
     </children>
@@ -133,7 +133,7 @@
     <command xml:space="preserve">ponder</command>
     <result xml:space="preserve">Maybe John will understand the situation if you tell him about the office window. (You can TELL a person ABOUT a topic or thing to inform characters about the world or ASK a person ABOUT a topic or thing to find out what they know.)&#x000A;&#x000A;(1) the apple - Tree Branch&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Maybe John will understand the situation if you tell him about the office window. (You can TELL a person ABOUT a topic or thing to inform characters about the world or ASK a person ABOUT a topic or thing to find out what they know.)&#x000A;&#x000A;(1) the apple - Tree Branch&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-52"/>
     </children>
