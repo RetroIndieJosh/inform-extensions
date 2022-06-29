@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-95">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-136"/>
+  <item nodeId="node-95">
+    <command xml:space="preserve">Examined</command>
+    <result xml:space="preserve">Examined&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Deck&#x000A;This wooden deck jutting out the back of your house is a wonderful place for barbecues and watching the kids play from afar.&#x000A;&#x000A;You can see a tiny black ball here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Examined&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 220629 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Deck&#x000A;This wooden deck jutting out the back of your house is a wonderful place for barbecues and watching the kids play from afar.&#x000A;&#x000A;You can see a tiny black ball here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">x ball</command>
+    <result xml:space="preserve">A strange marble-sized black ball catches your attention. You move to pick it up, and the legs expand, revealing a massive spider! Lucky for you, it's as scared as you are and immediately flees.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A strange marble-sized black ball catches your attention. You move to pick it up, and the legs expand, revealing a massive spider! Lucky for you, it's as scared as you are and immediately flees.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Deck&#x000A;This wooden deck jutting out the back of your house is a wonderful place for barbecues and watching the kids play from afar.&#x000A;&#x000A;You can see a spider here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Deck&#x000A;This wooden deck jutting out the back of your house is a wonderful place for barbecues and watching the kids play from afar.&#x000A;&#x000A;You can see a spider here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">x spider</command>
+    <result xml:space="preserve">The black spider zips away from you whenever you get close. Good riddance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The black spider zips away from you whenever you get close. Good riddance.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

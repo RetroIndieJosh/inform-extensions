@@ -126,6 +126,7 @@ Example: * Examined - Changes based on whether an item has been examined
 	
 	Test me with "x ball / look / x spider".
 
+
 Example: * Text Manipulation - Various ways to manipulate text.
 
 	*: "Text Manipulation"
