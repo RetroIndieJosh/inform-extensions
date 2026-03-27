@@ -10,29 +10,29 @@
             <author>Anonymous</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
-            <firstpublished>2022</firstpublished>
+            <firstpublished>2026</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2022-06-29</releasedate>
+                    <releasedate>2026-03-27</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
-                    <compilerversion>6M62</compilerversion>
+                    <compilerversion>Inform 10.1.2 (build )</compilerversion>
                 </release>
             </attached>
         </releases>
         <colophon>
             <generator>Inform 7</generator>
-            <generatorversion>6M62</generatorversion>
-            <originated>2022-06-29</originated>
+            <generatorversion>Inform 10.1.2 (build )</generatorversion>
+            <originated>2026-03-27</originated>
         </colophon>
         <glulx>
-            <serial>220629</serial>
+            <serial>260327</serial>
             <release>1</release>
-            <compiler>Inform 7 build 6M62</compiler>
+            <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>
     </story>
 </ifindex>

@@ -1,4 +1,6 @@
-General by Joshua McLean begins here.
+Version 0.1 of General by Joshua McLean begins here.
+
+"Adds general features and improvements that don't fit in categorized files."
 
 Use American dialect, scoring, and the serial comma.
 
@@ -29,13 +31,11 @@ After reading a command (this is the ignore beta-comments rule):
 
 Chapter 3 - Default Responses
 
-A thing can be examined. A thing is usually not examined. After examining something (called the target): now the target is examined.
-
 Instead of taking some scenery, say "That's not the sort of thing you can carry around."
 
-Chapter 4 - Bulk (for use with Bulk Limiter by Eric Eve)
+Chapter 4 - Examined
 
-The bulk of a thing is usually 5. The bulk capacity of the player is 20.
+A thing can be examined. A thing is usually not examined. After examining something (called the target): now the target is examined.
 
 Chapter 5 - Vulgarity
 
@@ -104,18 +104,32 @@ General ends here.
 
 ---- DOCUMENTATION ----
 
-When included, this extension will check at the beginning of play for anything without a description and report it (but not on release). To remove this check for any thing or room, say e.g.
+Chapter - Description Checking
 
-	The pencil is a thing. The pencil is undescribed.
+When debugging (not a release build), the game will start by printing warnings for all objects (things and rooms) which have not had their description specified. If you want to suppress this warning, say:
 	
-To ignore these checks entirely and allow undescribed objects, say
+	The foobar is a thing. The foobar is without description.
+	
+To ignore the checks entirely, say:
 
 	The check for missing descriptions when play begins rule is not listed in any rulebook.
 	
+For some reason, there's an object called "light-meter" that Inform generates, so we have flagged this as without description to avoid a false positive.
+
+Chapter - Tester Comments
+
+Ignores any command starting with an asterisk * so it can be placed in the transcript without affecting the game or delivering a strange response from the parser.
+
+Chapter - Default Responses
+
+Updated messages to avoid bland built-in responses.
+
+Chapter - Examined
+
+Things by default are not examined, and when the player examines them for the first time, they become examined. You can use this examined status to change the printed name or description of things to expand on interaction from examination.
+
 Example: * Examined - Changes based on whether an item has been examined
 
-	Things by default are not examined, and when the player examines them for the first time, they become examined. You can use this examined status to change the printed name or description of things to expand on interaction from examination.
-	
 	*: "Examined"
 	
 	Include General by Joshua McLean.
@@ -126,6 +140,13 @@ Example: * Examined - Changes based on whether an item has been examined
 	
 	Test me with "x ball / look / x spider".
 
+Chapter - Vulgarity
+
+Catch a number of vulgar phrases and scold the player for using them.
+
+Chapter - Text Handling
+
+Simplified tags for styling text.
 
 Example: * Text Manipulation - Various ways to manipulate text.
 
@@ -143,4 +164,19 @@ Example: * Text Manipulation - Various ways to manipulate text.
 		sayn "If we put [b]4.5[/b] where it belongs we have:[/p][insert the new number into the number list after line 4]";
 		sayn "If we replace 3 with 4.5 we get:[/p][replace the number list line 3 with the new number]".
 	
-	The Somewhere is a room. "A place, somewhere." A thing called the foobar is here. It is without description.
+	The Format Room is a room. "Cool formatting, done."
+	
+	Test me with "look".
+
+
+Chapter - Saving
+
+Automatically counts the number of times the player saves the game and stores it into a value called "the number of saves."
+
+Chapter - Pulling
+
+Because pushing is a default action, and it makes sense to have the opposite.
+
+Chapter - Default Scenery
+
+Make certain types of objects scenery by default. Currently, the only one is "door."

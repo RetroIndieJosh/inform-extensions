@@ -18,6 +18,8 @@
 	<dict>
 		<key>IFSettingInfix</key>
 		<false/>
+		<key>IFSettingTestingTabShownCount</key>
+		<integer>8</integer>
 	</dict>
 	<key>IFOutputSettings</key>
 	<dict>
@@ -25,8 +27,12 @@
 		<true/>
 		<key>IFSettingNobbleRng</key>
 		<false/>
+		<key>IFSettingBasicInform</key>
+		<false/>
 		<key>IFSettingZCodeVersion</key>
 		<integer>256</integer>
+		<key>IFSettingCompilerVersion</key>
+		<string></string>
 	</dict>
 	<key>IFRandomSettings</key>
 	<dict/>

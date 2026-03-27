@@ -8,4 +8,3 @@ An animal called a spider is here. The printed name is "[if the spider is examin
 
 Test me with "x ball / look / x spider".
 
-
