@@ -113,19 +113,18 @@ A lighter is a kind of thing. A lighter is never flammable.
 Understand nothing as burning.
 
 Lighting it with is an action applying to two visible things. Understand "light [something] with [something]" as lighting it with.
-
-Instead of lighting something with something that is not a lighter, say "You can't light anything with [the second noun]."
-
-Instead of lighting something not flammable with a lighter, say "[The second noun] isn't flammable."
-
-Instead of lighting something flammable with a lighter:
+Check lighting it with:
+	if the noun is not flammable, say "[The second noun] isn't flammable." instead;
+	if the second noun is not a lighter, say "You can't light anything with [the second noun]." instead;
 	if the second noun is not carried:
 		try silently taking the second noun;
+		if the second noun is not carried, say "You need to take [the second noun] first." instead;
 		say "You first take [the second noun].";
-	say "You light [the noun] with [the second noun].";
+	continue the action.
+Carry out lighting it with:
 	now the second noun is lit.
-
-Instead of burning something which is not flammable, say "You can't light [the noun]."
+Report lighting it with:
+	say "You light [the noun] with [the second noun]."
 
 General ends here.
 
