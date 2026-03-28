@@ -1,10 +1,13 @@
-"Examined"
+"Light and Darkness"
 
 Include General by Joshua McLean.
 
-The Deck is a room. "This wooden deck jutting out the back of your house is a wonderful place for barbecues and watching the kids play from afar."
+A lighter called the butane lighter is carried by the player. The description is "One flick and you get a nice little flame."
 
-An animal called a spider is here. The printed name is "[if the spider is examined]spider[otherwise]tiny black ball". Understand "tiny black ball" and "black ball" and "ball" as the spider. The description is "[if the spider is examined]The black spider zips away from you whenever you get close. Good riddance.[otherwise]A strange marble-sized black ball catches your attention. You move to pick it up, and the legs expand, revealing a massive spider! Lucky for you, it's as scared as you are and immediately flees."
+Living Room is a room. "A standard living room. The only interesting thing is the old-school wooden torch on the floor. Stairs lead down to the basement."
 
-Test me with "x ball / look / x spider".
+A flammable thing called the torch is here. The description is "A stick with flammable cloth wrapped around the top. Makes you feel like a proper adventurer."
 
+A dark room called The Basement is down from Living Room. "An empty, concrete basement. Guess it wasn't worth bringing light, after all."
+
+Test me with "light torch / get torch / d".

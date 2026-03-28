@@ -1,4 +1,4 @@
-Version 0.1 of General by Joshua McLean begins here.
+Version 1 of General by Joshua McLean begins here.
 
 "Adds general features and improvements that don't fit in categorized files."
 
@@ -100,6 +100,33 @@ Chapter 9 - Default Scenery
 
 A door is usually scenery.
 
+Chapter 10 - Light and Darkness
+
+Rule for printing a refusal to act in the dark:
+	if we are examining something, say "It's too dark for you to look at anything closely." instead.
+	
+Instead of dropping something, say "Better not, you might need [the noun]."
+
+A thing can be flammable. A thing is usually not flammable.
+A lighter is a kind of thing. A lighter is never flammable.
+
+Understand nothing as burning.
+
+Lighting it with is an action applying to two visible things. Understand "light [something] with [something]" as lighting it with.
+
+Instead of lighting something with something that is not a lighter, say "You can't light anything with [the second noun]."
+
+Instead of lighting something not flammable with a lighter, say "[The second noun] isn't flammable."
+
+Instead of lighting something flammable with a lighter:
+	if the second noun is not carried:
+		try silently taking the second noun;
+		say "You first take [the second noun].";
+	say "You light [the noun] with [the second noun].";
+	now the second noun is lit.
+
+Instead of burning something which is not flammable, say "You can't light [the noun]."
+
 General ends here.
 
 ---- DOCUMENTATION ----
@@ -168,7 +195,6 @@ Example: * Text Manipulation - Various ways to manipulate text.
 	
 	Test me with "look".
 
-
 Chapter - Saving
 
 Automatically counts the number of times the player saves the game and stores it into a value called "the number of saves."
@@ -180,3 +206,23 @@ Because pushing is a default action, and it makes sense to have the opposite.
 Chapter - Default Scenery
 
 Make certain types of objects scenery by default. Currently, the only one is "door."
+
+Chapter - Light and Darkness
+
+Replaces the default "burn X" verb with "light X with Y" and introduces the "lighter" type which can light "flammable" things. After lighting a flammable thing, it becomes lit.
+
+Example: * Light and Darkness - Using a lighter to light a flammable object and illuminate a dark room.
+
+	*: "Light and Darkness"
+	
+	Include General by Joshua McLean.
+	
+	A lighter called the butane lighter is carried by the player. The description is "One flick and you get a nice little flame."
+	
+	Living Room is a room. "A standard living room. The only interesting thing is the old-school wooden torch on the floor. Stairs lead down to the basement."
+	
+	A flammable thing called the torch is here. The description is "A stick with flammable cloth wrapped around the top. Makes you feel like a proper adventurer."
+	
+	A dark room called The Basement is down from Living Room. "An empty, concrete basement. Guess it wasn't worth bringing light, after all."
+	
+	Test me with "light torch / get torch / d".
