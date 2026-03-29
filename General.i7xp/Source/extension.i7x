@@ -89,18 +89,11 @@ Chapter 7 - Saving
 The number of saves is a number which varies.
 Check saving the game: increment the number of saves; continue the action.
 
-Chapter 8 - Pulling
-
-The report pulling rule is not listed in the report pulling rulebook.
-A thing can be pullable. A thing is usually not pullable. Definition: a thing is unpullable if it is not pullable.
-Check pulling:
-	if the noun is not pullable, say "You can't pull that." instead.
-
-Chapter 9 - Default Scenery
+Chapter 8 - Default Scenery
 
 A door is usually scenery.
 
-Chapter 10 - Light and Darkness
+Chapter 9 - Light and Darkness
 
 Rule for printing a refusal to act in the dark:
 	if we are examining something, say "It's too dark for you to look at anything closely." instead.
@@ -122,7 +115,7 @@ Check lighting it with:
 		say "You first take [the second noun].";
 	continue the action.
 Carry out lighting it with:
-	now the second noun is lit.
+	now the noun is lit.
 Report lighting it with:
 	say "You light [the noun] with [the second noun]."
 
@@ -154,6 +147,26 @@ Chapter - Examined
 
 Things by default are not examined, and when the player examines them for the first time, they become examined. You can use this examined status to change the printed name or description of things to expand on interaction from examination.
 
+Chapter - Vulgarity
+
+Catch a number of vulgar phrases and scold the player for using them.
+
+Chapter - Text Handling
+
+Simplified tags for styling text.
+
+Chapter - Saving
+
+Automatically counts the number of times the player saves the game and stores it into a value called "the number of saves."
+
+Chapter - Default Scenery
+
+Make certain types of objects scenery by default. Currently, the only one is "door."
+
+Chapter - Light and Darkness
+
+Replaces the default "burn X" verb with "light X with Y" and introduces the "lighter" type which can light "flammable" things. After lighting a flammable thing, it becomes lit.
+
 Example: * Examined - Changes based on whether an item has been examined
 
 	*: "Examined"
@@ -165,15 +178,7 @@ Example: * Examined - Changes based on whether an item has been examined
 	An animal called a spider is here. The printed name is "[if the spider is examined]spider[otherwise]tiny black ball". Understand "tiny black ball" and "black ball" and "ball" as the spider. The description is "[if the spider is examined]The black spider zips away from you whenever you get close. Good riddance.[otherwise]A strange marble-sized black ball catches your attention. You move to pick it up, and the legs expand, revealing a massive spider! Lucky for you, it's as scared as you are and immediately flees."
 	
 	Test me with "x ball / look / x spider".
-
-Chapter - Vulgarity
-
-Catch a number of vulgar phrases and scold the player for using them.
-
-Chapter - Text Handling
-
-Simplified tags for styling text.
-
+	
 Example: * Text Manipulation - Various ways to manipulate text.
 
 	*: "Text Manipulation"
@@ -193,22 +198,6 @@ Example: * Text Manipulation - Various ways to manipulate text.
 	The Format Room is a room. "Cool formatting, done."
 	
 	Test me with "look".
-
-Chapter - Saving
-
-Automatically counts the number of times the player saves the game and stores it into a value called "the number of saves."
-
-Chapter - Pulling
-
-Because pushing is a default action, and it makes sense to have the opposite.
-
-Chapter - Default Scenery
-
-Make certain types of objects scenery by default. Currently, the only one is "door."
-
-Chapter - Light and Darkness
-
-Replaces the default "burn X" verb with "light X with Y" and introduces the "lighter" type which can light "flammable" things. After lighting a flammable thing, it becomes lit.
 
 Example: * Light and Darkness - Using a lighter to light a flammable object and illuminate a dark room.
 
