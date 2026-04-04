@@ -25,7 +25,7 @@ A subject is usually without description.
 Chapter 2 - Noting Beta Comments
 
 After reading a command (this is the ignore beta-comments rule): 
-	if the player's command matches the regular expression "\*.+": 
+	if the player's command matches the regular expression "^\*.*": 
 		say "(Noted.)"; 
 		reject the player's command. 
 
@@ -102,6 +102,10 @@ Instead of dropping something, say "Better not, you might need [the noun]."
 
 A thing can be flammable. A thing is usually not flammable.
 A lighter is a kind of thing. A lighter is never flammable.
+
+Does the player mean lighting a lighter with something: it is very unlikely.
+Does the player mean lighting something with something flammable: it is very unlikely.
+Does the player mean lighting something flammable with a lighter: it is very unlikely.
 
 Understand nothing as burning.
 

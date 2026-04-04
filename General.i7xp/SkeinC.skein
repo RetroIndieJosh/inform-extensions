@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-22">
+<Skein rootNode="node-74">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-22">
+  <item nodeId="node-74">
     <command xml:space="preserve">Light and Darkness</command>
-    <result xml:space="preserve">Light and Darkness&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 260328 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Living Room&#x000A;A standard living room. The only interesting thing is the old-school wooden torch on the floor. Stairs lead down to the basement.&#x000A;&#x000A;You can see the torch here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Light and Darkness&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 260404 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Living Room&#x000A;A standard living room. The only interesting thing is the old-school wooden torch on the floor. Stairs lead down to the basement.&#x000A;&#x000A;You can see the torch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Light and Darkness&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 260328 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Living Room&#x000A;A standard living room. The only interesting thing is the old-school wooden torch on the floor. Stairs lead down to the basement.&#x000A;&#x000A;You can see the torch here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-26"/>
+      <child nodeId="node-75"/>
     </children>
   </item>
-  <item nodeId="node-26">
+  <item nodeId="node-75">
     <command xml:space="preserve">light torch</command>
-    <result xml:space="preserve">(with the butane lighter)&#x000A;You light the torch with the butane lighter.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">(with the butane lighter)&#x000A;You light the torch with the butane lighter.&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">What do you want to light the torch with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">What do you want to light the torch with?&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-30"/>
+      <child nodeId="node-76"/>
     </children>
   </item>
-  <item nodeId="node-30">
+  <item nodeId="node-76">
     <command xml:space="preserve">get torch</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-31"/>
+      <child nodeId="node-77"/>
     </children>
   </item>
-  <item nodeId="node-31">
+  <item nodeId="node-77">
     <command xml:space="preserve">d</command>
-    <result xml:space="preserve">The Basement&#x000A;An empty, concrete basement. Guess it wasn't worth bringing light, after all.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">The Basement&#x000A;An empty, concrete basement. Guess it wasn't worth bringing light, after all.&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
   </item>
 </Skein>
