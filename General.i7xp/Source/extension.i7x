@@ -97,8 +97,6 @@ Chapter 9 - Light and Darkness
 
 Rule for printing a refusal to act in the dark:
 	if we are examining something, say "It's too dark for you to look at anything closely." instead.
-	
-Instead of dropping something, say "Better not, you might need [the noun]."
 
 A thing can be flammable. A thing is usually not flammable.
 A lighter is a kind of thing. A lighter is never flammable.
@@ -116,7 +114,7 @@ Check lighting it with:
 	if the second noun is not carried:
 		try silently taking the second noun;
 		if the second noun is not carried, say "You need to take [the second noun] first." instead;
-		say "You first take [the second noun].";
+		say "(first taking [the second noun])";
 	continue the action.
 Carry out lighting it with:
 	now the noun is lit.
