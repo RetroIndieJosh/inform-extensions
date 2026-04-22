@@ -82,6 +82,13 @@ To say replace (target - some text) line (n - a number) with (str - some text):
 	let nminus be n - 1;
 	let nplus be n + 1;
 	say "[target lines 1 to nminus][str][br][target lines nplus to number of lines in target]".
+	
+To say a/an for (T - text):
+	let N be T in lower case;
+	if character number 1 in N is "a" or character number 1 in N is "e" or character number 1 in N is "i" or character number 1 in N is "o" or character number 1 in N is "u":
+		say "an";
+	otherwise:
+		say "a".
 
 Chapter 7 - Saving
 
