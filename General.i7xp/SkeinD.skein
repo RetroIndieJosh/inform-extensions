@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-79">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-79">
+    <command xml:space="preserve">Doors</command>
+    <result xml:space="preserve">Doors&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 260425 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Front yard&#x000A;Your standard suburban lot with trimmed grass. The house is north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Doors&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 260425 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Front yard&#x000A;Your standard suburban lot with trimmed grass. The house is north.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">The front door is closed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The front door is closed.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You open the front door.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">The front door stands open. Entryway lies beyond.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The front door stands open. Entryway lies beyond.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Entryway&#x000A;A small, simple room that leads into the rest of the house. The front yard lies south, past the door.&#x000A;&#x000A;You can see the notadoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Entryway&#x000A;A small, simple room that leads into the rest of the house. The front yard lies south, past the door.&#x000A;&#x000A;You can see the notadoor here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">The front door stands open. Front yard lies beyond.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The front door stands open. Front yard lies beyond.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">You close the front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You close the front door.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">The front door is closed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The front door is closed.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">x notadoor</command>
+    <result xml:space="preserve">ERROR: Tried to say door-description of notadoor, which is not a door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">ERROR: Tried to say door-description of notadoor, which is not a door.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

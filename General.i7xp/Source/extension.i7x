@@ -96,9 +96,29 @@ Chapter 7 - Saving
 The number of saves is a number which varies.
 Check saving the game: increment the number of saves; continue the action.
 
-Chapter 8 - Default Scenery
+Chapter 8 - Doors
 
+[doors aren't listed in room description since they're often manually described]
 A door is usually scenery.
+
+[TODO move to General]
+To decide what room is the far side of (D - a door):
+	if the location is the front side of D:
+		decide on the back side of D;
+	decide on the front side of D.
+
+The description of a door is usually "[door-description][run paragraph on]". A door is usually without description.
+
+To say door-description:
+	let D be the item described;
+	if D is a door:
+		if D is open:
+			say "[The D] stands open. [The far side of D] lies beyond.";
+		otherwise:
+			say "[The D] is closed.";
+	otherwise:
+		say "ERROR: Tried to say door-description of [D], which is not a door.";
+		rule fails.
 
 Chapter 9 - Light and Darkness
 
@@ -223,3 +243,19 @@ Example: * Light and Darkness - Using a lighter to light a flammable object and 
 	A dark room called The Basement is down from Living Room. "An empty, concrete basement. Guess it wasn't worth bringing light, after all."
 	
 	Test me with "light torch / get torch / d".
+	
+Example: * Doors - Describing doors.
+
+	*: "Doors"
+	
+	Include General by Joshua McLean.
+
+	Front yard is a room. "Your standard suburban lot with trimmed grass. The house is north."	
+
+	Entryway is a room. "A small, simple room that leads into the rest of the house. The front yard lies south, past the door."
+
+	A thing called the notadoor is here. The description is "[door-description][run paragraph on]".
+	
+	A door called the front door is south of Entryway and north of Front Yard.
+
+	Test me with "x door / open door / x door / n / x door / close door / x door / x notadoor".

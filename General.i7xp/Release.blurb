@@ -10,7 +10,7 @@ release to "C:\Game Dev\Inform Extensions\General.materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "Light and Darkness.gblorb"
+storyfile leafname "Doors.gblorb"
 storyfile "C:\Game Dev\Inform Extensions\General.i7xp\Build\output.ulx" include
 ifiction "C:\Game Dev\Inform Extensions\General.i7xp\Metadata.iFiction" include
 cover "C:\Dev\Inform\Internal\Miscellany\DefaultCover.jpg"
@@ -21,7 +21,7 @@ picture 1 "C:\Dev\Inform\Internal\Miscellany\DefaultCover.jpg"
 placeholder [IFID] = "EFAF652B-8701-4CFC-B98F-B8A0F906239B"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2026"
-placeholder [TITLE] = "Light and Darkness"
+placeholder [TITLE] = "Doors"
 placeholder [AUTHOR] = "Anonymous"
 placeholder [BLURB] = "A work of interactive fiction."
 

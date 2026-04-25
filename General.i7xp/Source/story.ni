@@ -1,13 +1,13 @@
-"Light and Darkness"
+"Doors"
 
 Include General by Joshua McLean.
 
-A lighter called the butane lighter is carried by the player. The description is "One flick and you get a nice little flame."
+Front yard is a room. "Your standard suburban lot with trimmed grass. The house is north."	
 
-Living Room is a room. "A standard living room. The only interesting thing is the old-school wooden torch on the floor. Stairs lead down to the basement."
+Entryway is a room. "A small, simple room that leads into the rest of the house. The front yard lies south, past the door."
 
-A flammable thing called the torch is here. The description is "A stick with flammable cloth wrapped around the top. Makes you feel like a proper adventurer."
+A thing called the notadoor is here. The description is "[door-description][run paragraph on]".
 
-A dark room called The Basement is down from Living Room. "An empty, concrete basement. Guess it wasn't worth bringing light, after all."
+A door called the front door is south of Entryway and north of Front Yard.
 
-Test me with "light torch / get torch / d".
+Test me with "x door / open door / x door / n / x door / close door / x door / x notadoor".
