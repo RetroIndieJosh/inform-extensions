@@ -22,22 +22,26 @@ Section 1 - Subjects Have No Description (for use with Conversation Framework by
 
 A subject is usually without description.
 
-Chapter 2 - Noting Beta Comments
+Chapter 2 - New Meta Verbs
+
+Asking for turns is an action applying to nothing. Understand "turn" and "turns" as asking for turns. Report asking for turns: say "You have used [turn count] turns so far in this adventure."
+
+Chapter 3 - Noting Beta Comments
 
 After reading a command (this is the ignore beta-comments rule): 
 	if the player's command matches the regular expression "^\*.*": 
 		say "(Noted.)"; 
 		reject the player's command. 
 
-Chapter 3 - Default Responses
+Chapter 4 - Default Responses
 
 Instead of taking some scenery, say "That's not the sort of thing you can carry around."
 
-Chapter 4 - Examined
+Chapter 5 - Examined
 
 A thing can be examined. A thing is usually not examined. After examining something (called the target): now the target is examined.
 
-Chapter 5 - Vulgarity
+Chapter 6 - Vulgarity
 
 Being vulgar is an action applying to nothing. Understand "shit", "fuck", "fucker", "damn", "ass", "motherfuck", "motherfucker", "bullshit", "dammit", "damnit", "goddamn", and "bitch" as being vulgar.
 Report being vulgar:
@@ -46,7 +50,7 @@ Being vulgar to is an action applying to one topic. Understand "shit [text]", "f
 Carry out being vulgar to:
 	try being vulgar.
 
-Chapter 6 - Text Handling
+Chapter 7 - Text Handling
 
 To say i -- beginning say_i -- running on: (- style underline; -). 
 To say /i -- ending say_i -- running on: (- style roman; -). 
@@ -90,18 +94,17 @@ To say a/an for (T - text):
 	otherwise:
 		say "a".
 
-Chapter 7 - Saving
+Chapter 8 - Saving
 
 [count saves]
 The number of saves is a number which varies.
 Check saving the game: increment the number of saves; continue the action.
 
-Chapter 8 - Doors
+Chapter 9 - Doors
 
-[doors aren't listed in room description since they're often manually described]
+[TODO default initial appearance for doors as a named, optional rule]
 A door is usually scenery.
 
-[TODO move to General]
 To decide what room is the far side of (D - a door):
 	if the location is the front side of D:
 		decide on the back side of D;
@@ -120,7 +123,7 @@ To say door-description:
 		say "ERROR: Tried to say door-description of [D], which is not a door.";
 		rule fails.
 
-Chapter 9 - Light and Darkness
+Chapter 10 - Light and Darkness
 
 Rule for printing a refusal to act in the dark:
 	if we are examining something, say "It's too dark for you to look at anything closely." instead.
@@ -188,9 +191,9 @@ Chapter - Saving
 
 Automatically counts the number of times the player saves the game and stores it into a value called "the number of saves."
 
-Chapter - Default Scenery
+Chapter - Doors
 
-Make certain types of objects scenery by default. Currently, the only one is "door."
+Treat doors as scenery so they can be described uniquely in each room. Automatically describe doors, including what's on the other side.
 
 Chapter - Light and Darkness
 
